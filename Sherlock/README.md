@@ -58,7 +58,7 @@ Se confirmó la existencia y accesibilidad de los perfiles detectados:
 
 ---
 
-## 🚀 Conclusión
+## 🎓 Conclusión
 
 Sherlock ha demostrado ser una herramienta eficaz para la fase de **Reconocimiento**. He podido comprobar la exposición de mi marca personal en segundos.
 
