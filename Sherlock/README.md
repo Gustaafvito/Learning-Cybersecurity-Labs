@@ -10,7 +10,7 @@ Realizar una auditoría de **OSINT (Open Source Intelligence)** sobre mi propia 
 
 El primer paso fue clonar el repositorio oficial de la herramienta en mi entorno Kali Linux.
 
-![Clonando repositorio](Sherlock/Git%20Clone.png)
+![Clonando repositorio](Git%20Clone.png)
 
 ### 🚧 El Reto Técnico (PEP 668)
 
@@ -29,7 +29,7 @@ source entornovirtual/bin/activate
 # 1.3 Instalar dependencias de forma segura
 pip3 install .
 ```
-
+![instalar dependencias](Pip%20install.png)
 ---
 
 ## 💻 Fase 2: Ejecución del Escaneo
@@ -42,7 +42,7 @@ Una vez configurado el entorno, lancé la herramienta contra mi usuario objetivo
 sherlock gustaafvito.creador.ia
 ```
 
-![Resultado de búsqueda de usuario](Sherlock/Busqueda%20usuario.png)
+![Resultado de búsqueda de usuario](Busqueda%20usuario.png)
 
 ---
 
@@ -52,7 +52,7 @@ Como analista, es fundamental verificar los hallazgos para descartar *falsos pos
 
 Se confirmó la existencia y accesibilidad de los perfiles detectados:
 
-![Validación en navegador](Sherlock/Navegador.png)
+![Validación en navegador](Navegador.png)
 
 ---
 
