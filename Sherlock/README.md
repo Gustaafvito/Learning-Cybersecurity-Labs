@@ -63,3 +63,12 @@ Se confirmó la existencia y accesibilidad de los perfiles detectados:
 Sherlock ha demostrado ser una herramienta eficaz para la fase de **Reconocimiento**. He podido comprobar la exposición de mi marca personal en segundos.
 
 Esta práctica refuerza la importancia de auditar periódicamente nuestra propia huella digital para entender qué información estamos exponiendo al público.
+
+---
+
+## ⚠️ Disclaimer
+El uso de este material y las herramientas mencionadas es estrictamente **educativo y formativo**.
+
+Las pruebas realizadas en este laboratorio se llevaron a cabo sobre **mis propios activos y cuentas** (`gustaafvito.creador.ia`) con el fin de auditar mi propia seguridad.
+
+El autor no se hace responsable del mal uso que terceros puedan dar a la información aquí expuesta. El acceso no autorizado a sistemas informáticos o el ciberacoso son delitos penados por la ley.
