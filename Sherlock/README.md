@@ -2,14 +2,16 @@
 
 ## 🎯 Objetivo
 
-Realizar una auditoría de **OSINT (Open Source Intelligence)** sobre mi propia marca personal (`gustaafvito.creador.ia`) para verificar qué información es públicamente accesible a través del nombre de usuario en diversas plataformas.
+Realizar una auditoría de **OSINT (Open Source Intelligence)** sobre mi propia marca personal, sobre mi canal de creación de imagenes y videos con IA (`gustaafvito.creador.ia`) para verificar qué información es públicamente accesible a través del nombre de usuario en diversas plataformas.
 
 ---
 
 ## 🛠️ Fase 1: Instalación y Solución de Errores
 
 El primer paso fue clonar el repositorio oficial de la herramienta en mi entorno Kali Linux.
-
+```bash
+git clone https://github.com/sherlock-project/sherlock.git
+```
 ![Clonando repositorio](Git%20Clone.png)
 
 ### 🚧 El Reto Técnico (PEP 668)
@@ -34,7 +36,7 @@ pip3 install .
 
 ## 💻 Fase 2: Ejecución del Escaneo
 
-Una vez configurado el entorno, lancé la herramienta contra mi usuario objetivo para buscar coincidencias en más de 300 plataformas sociales.
+Una vez configurado el entorno, lancé la herramienta contra un usuario que tengo para redes sociales de creacion de imagenes y videos con IA, para buscar coincidencias en más de 300 plataformas sociales.
 
 ### 2.1 Búsqueda de usuario
 
