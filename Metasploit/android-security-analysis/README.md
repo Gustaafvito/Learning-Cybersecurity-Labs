@@ -32,3 +32,20 @@ El dispositivo virtual se ejecuta exitosamente, simulando un teléfono funcional
 ![Dispositivo Corriendo](img/setup_4_ejecucion.png)
 
 ---
+
+## ⚔️ Fase 2: Weaponization (Preparación del Ataque)
+
+Con el entorno objetivo listo, pasamos a la máquina atacante (Kali Linux) para preparar la infraestructura.
+
+### 1. Verificación de Red
+Antes de iniciar, verificamos nuestra dirección IP local para configurar correctamente la conexión inversa (Reverse Shell). En este caso, el atacante se encuentra en `192.168.0.31`.
+
+![Configuración de Red](img/ataque_1_config_red.png)
+
+### 2. Generación del Payload (Ingeniería Social)
+Utilizamos `msfvenom` para generar el APK malicioso.
+* **Estrategia de Engaño:** Se nombró el archivo como `SystemUpdate.apk`. Este es un vector de Ingeniería Social común: disfrazar malware como componentes críticos del sistema para que la víctima acepte los permisos sin sospechar.
+* **Payload:** `android/meterpreter/reverse_tcp`
+* **Verificación:** Confirmamos con `ls -lh` que el archivo se ha generado correctamente (aprox. 10KB).
+
+![Generando Payload](img/ataque_2_creacion_payload.png)
