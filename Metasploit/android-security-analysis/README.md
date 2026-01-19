@@ -99,6 +99,8 @@ La fotografía se captura y descarga inmediatamente. En Android 8.1 (API 27), es
 
 ---
 
+## 🏁 Conclusiones del Red Team
+
 La ejecución de este escenario ha demostrado que la **obsolescencia del software** es una vulnerabilidad crítica en sí misma.
 
 1.  **Impacto Crítico:** Se logró compromiso total del dispositivo (cámara, ubicación y archivos) sin necesidad de escalar privilegios (Root), utilizando únicamente los permisos estándar otorgados por el usuario.
