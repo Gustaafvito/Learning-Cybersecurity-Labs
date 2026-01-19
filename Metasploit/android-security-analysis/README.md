@@ -46,6 +46,6 @@ Antes de iniciar, verificamos nuestra dirección IP local para configurar correc
 Utilizamos `msfvenom` para generar el APK malicioso.
 * **Estrategia de Engaño:** Se nombró el archivo como `SystemUpdate.apk`. Este es un vector de Ingeniería Social común: disfrazar malware como componentes críticos del sistema para que la víctima acepte los permisos sin sospechar.
 * **Payload:** `android/meterpreter/reverse_tcp`
-* **Verificación:** Confirmamos con `ls -lh` que el archivo se ha generado correctamente (aprox. 10KB).
+* **Verificación:** Confirmamos con `ls` que el archivo se ha generado correctamente.
 
 ![Generando Payload](img/ataque_2_creacion_payload.png)
