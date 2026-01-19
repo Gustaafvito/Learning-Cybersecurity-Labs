@@ -1,5 +1,10 @@
 # 📱 Análisis de Seguridad en Android & Simulación de Adversarios
 
+> ⚠️ **DISCLAIMER / AVISO LEGAL**
+> Este proyecto ha sido desarrollado únicamente con fines educativos y de investigación académica. Todas las pruebas se han realizado en un entorno controlado y aislado (laboratorio virtual) propiedad del autor.
+> El autor no se hace responsable del mal uso de la información aquí expuesta. El acceso no autorizado a sistemas informáticos es ilegal.
+
+
 ## 🛡️ Descripción del Proyecto
 Este laboratorio simula un escenario de **Red Team** y **Pentesting Móvil** para analizar la evolución de la seguridad en Android. El objetivo es comparar cómo las vulnerabilidades críticas en versiones antiguas (Android 8.1) han sido mitigadas en versiones modernas (Android 12+), y demostrar el riesgo de utilizar dispositivos desactualizados.
 
