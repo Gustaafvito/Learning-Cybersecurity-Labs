@@ -77,3 +77,33 @@ El siguiente video documenta la secuencia de éxito:
 ### Resultado Técnico
 El ataque es exitoso. La sesión de Meterpreter (Session 1 opened) nos confirma que tenemos un canal de comunicación directo y persistente con el dispositivo víctima.
 
+## 🕵️ Fase 4: Post-Explotación e Impacto
+
+Una vez dentro del sistema, demostramos la criticidad de mantener dispositivos desactualizados.
+
+### 1. Persistencia y Sigilo
+Ejecutamos `sysinfo` para confirmar el objetivo y `hide_app_icon` para ocultarnos.
+* **Resultado:** El icono de la aplicación desaparece del menú principal de la víctima, dificultando su eliminación.
+
+![Persistencia en Terminal](img/post_1_persistencia.png)
+
+### 2. Ciberespionaje (Spyware)
+El atacante ejecuta el comando `webcam_snap` para tomar una fotografía remota.
+* **Comando:**
+![Comando Webcam](img/post_2_comando_camara.png)
+
+* **Impacto (Resultado):**
+La fotografía se captura y descarga inmediatamente. En Android 8.1 (API 27), esto ocurre sin que aparezca ningún indicador visual (punto verde) en la pantalla de la víctima, violando totalmente su privacidad sin ser detectado.
+
+![Exfiltración de Cámara](img/post_3_resultado_camara.jpg)
+
+---
+
+## 🏁 Conclusiones y Mitigación
+
+Este laboratorio ha demostrado la evolución de la seguridad en Android.
+1.  **Google Play Protect:** En un escenario real, detectaría la firma de Meterpreter.
+2.  **Indicadores de Privacidad:** Android 12+ alerta visualmente cuando la cámara es usada.
+3.  **Gestión de Procesos:** Los sistemas modernos bloquean conexiones de fondo agresivas.
+
+**Estado del Proyecto:** ✅ Finalizado con éxito (Proof of Concept).
