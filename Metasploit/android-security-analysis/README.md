@@ -99,11 +99,10 @@ La fotografía se captura y descarga inmediatamente. En Android 8.1 (API 27), es
 
 ---
 
-## 🏁 Conclusiones y Mitigación
+La ejecución de este escenario ha demostrado que la **obsolescencia del software** es una vulnerabilidad crítica en sí misma.
 
-Este laboratorio ha demostrado la evolución de la seguridad en Android.
-1.  **Google Play Protect:** En un escenario real, detectaría la firma de Meterpreter.
-2.  **Indicadores de Privacidad:** Android 12+ alerta visualmente cuando la cámara es usada.
-3.  **Gestión de Procesos:** Los sistemas modernos bloquean conexiones de fondo agresivas.
+1.  **Impacto Crítico:** Se logró compromiso total del dispositivo (cámara, ubicación y archivos) sin necesidad de escalar privilegios (Root), utilizando únicamente los permisos estándar otorgados por el usuario.
+2.  **Evasión:** Las técnicas de ofuscación básicas (como renombrar el APK) fueron suficientes para evadir la concienciación del usuario, aunque insuficientes para evadir un antivirus moderno.
+3.  **Lección Aprendida:** La seguridad en capas de Android actual (Permisos Runtime, Indicadores visuales y Play Protect) es efectiva para mitigar estos ataques genéricos, haciendo indispensable mantener los dispositivos actualizados.
 
-**Estado del Proyecto:** ✅ Finalizado con éxito (Proof of Concept).
+> **Estado:** ✅ Misión Cumplida (Rooted/Compromised).
