@@ -95,7 +95,7 @@ El atacante ejecuta el comando `webcam_snap` para tomar una fotografía remota.
 * **Impacto (Resultado):**
 La fotografía se captura y descarga inmediatamente. En Android 8.1 (API 27), esto ocurre sin que aparezca ningún indicador visual (punto verde) en la pantalla de la víctima, violando totalmente su privacidad sin ser detectado.
 
-![Exfiltración de Cámara](img/post_3_resultado_camara.jpg)
+![Exfiltración de Cámara](img/post_3_resultado_camara.png)
 
 ---
 
