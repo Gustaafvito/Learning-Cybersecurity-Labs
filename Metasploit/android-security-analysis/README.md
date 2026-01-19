@@ -52,4 +52,23 @@ Utilizamos `msfvenom` para generar el APK malicioso.
 Confirmamos en las propiedades del archivo que el payload se ha generado correctamente, verificando su nombre y tamaño antes de enviarlo.
 ![Propiedades del Malware](img/ataque_2_propiedades.png)
 
+## 💀 Fase 3: Explotación y Acceso (Proof of Concept)
+
+En esta fase ejecutamos el ataque completo, pasando de la escucha pasiva a la obtención de control remoto.
+
+### 1. Despliegue del Listener (C2)
+Iniciamos el controlador en Metasploit (`multi/handler`) configurado con el mismo payload (`android/meterpreter/reverse_tcp`) y puerto que el archivo malicioso. La terminal queda a la espera de conexiones entrantes.
+
+![Listener Activo](img/ataque_3_listener.png)
+
+### 2. Ejecución y Compromiso (Demo)
+El siguiente video documenta la secuencia de éxito:
+1.  El usuario ejecuta la aplicación `SystemUpdate` en el dispositivo Android 8.1.
+2.  El sistema no solicita permisos especiales ni bloquea la conexión de red.
+3.  Obtenemos una sesión de **Meterpreter** instantánea en nuestra máquina atacante.
+
+![Demo del Ataque](img/ataque_demo.gif)
+
+### Resultado Técnico
+El ataque es exitoso. La sesión de Meterpreter (Session 1 opened) nos confirma que tenemos un canal de comunicación directo y persistente con el dispositivo víctima.
 
