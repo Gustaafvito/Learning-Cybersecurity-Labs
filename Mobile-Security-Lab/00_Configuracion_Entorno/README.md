@@ -43,19 +43,19 @@ Herramienta de código abierto que permite visualizar y controlar dispositivos A
 ### 1. Obtención del Software
 Descargamos la última versión estable directamente desde el repositorio oficial para garantizar la integridad de la cadena de suministro.
 
-![Fuente Oficial GitHub](01-scrcpy-source.png)
+![Fuente Oficial GitHub](img/01-scrcpy-source.png)
 
 ### 2. Instalación (Estructura de Directorios)
 Para mantener la limpieza del entorno y evitar conflictos de permisos con `adb.exe` en la raíz, desplegamos la herramienta en su propio subdirectorio.
 - **Ruta:** `C:\adb\scrcpy\`
 
-![Estructura de Carpetas](02-scrcpy-folder.png)
+![Estructura de Carpetas](img/02-scrcpy-folder.png)
 
 ### 3. Ejecución y Permisos
 Al ejecutar `scrcpy.exe` por primera vez, Windows Defender SmartScreen puede solicitar confirmación debido a que es una herramienta de hacking ético/desarrollo no firmada por Microsoft.
 - **Acción:** Seleccionar "Más información" -> "Ejecutar de todas formas".
 
-![Advertencia de Seguridad](03-smartscreen-warning.png)
+![Advertencia de Seguridad](img/03-smartscreen-warning.png)
 
 ### 4. Validación de Funcionamiento
 El script levanta un servidor ADB y abre una ventana espejo con baja latencia (35~70ms).
@@ -64,7 +64,3 @@ El script levanta un servidor ADB y abre una ventana espejo con baja latencia (3
 ```powershell
 cd C:\adb\scrcpy
 .\scrcpy.exe
-
-
-## ⏭️ Siguientes Pasos
-Ahora que el entorno está configurado, el siguiente paso es ir a la carpeta específica del dispositivo (ej: `/POCO_M5`) para realizar la conexión y extracción de datos.
