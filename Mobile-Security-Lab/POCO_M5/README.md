@@ -116,6 +116,7 @@ Termux requiere un gestor de descargas por línea de comandos para obtener el sc
 Comprobamos que el binario está accesible en el `PATH` del sistema.
 
 ![Verificación de Wget](img/12-install-wget.png)
+
 ---
 ### 3.2 Obtención del Instalador
 Descargamos el script oficial de Offensive Security. Este script automatiza la descarga de la imagen del sistema de archivos (rootfs) y configura el entorno *proot* para que Kali funcione sobre el kernel de Android.
@@ -125,7 +126,7 @@ Descargamos el script oficial de Offensive Security. Este script automatiza la d
 
 ![Descarga del Script Exitosa](img/13-download-script.png)
 
---
+---
 ### 3.3 Inicialización y Selección de Imagen
 Ejecutamos el instalador (`./install-nethunter-termux`). El script verifica la arquitectura del procesador (ARM64) y presenta las ediciones disponibles:
 1.  **Full:** Contiene todas las herramientas (Metasploit, Nmap, etc.). Recomendada.
@@ -134,7 +135,7 @@ Ejecutamos el instalador (`./install-nethunter-termux`). El script verifica la a
 
 ![Menú de Selección NetHunter](img/14-kali-banner.png)
 
---
+---
 ### 3.4 Despliegue de la Imagen (Rootfs)
 El sistema procede a la descarga del archivo `rootfs` (sistema de archivos) completo.
 - **Tamaño:** ~2.1 GB.
@@ -146,4 +147,4 @@ El sistema solicita confirmación para eliminar el archivo comprimido original. 
 
 ![Descarga y Extracción Completada](img/15-download-complete.png)
 
---
+---
