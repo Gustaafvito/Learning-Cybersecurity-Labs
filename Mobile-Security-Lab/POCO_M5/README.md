@@ -19,6 +19,8 @@ En lugar de tomar notas manuales, realizamos un volcado completo de las propieda
   ```powershell
   ./adb shell getprop > POCO_M5_specs.txt
 
+![Ejecución...](img/02-volcado.png)
+
 ### 1.3 Verificación de la Evidencia
 Se generó correctamente el archivo `POCO_M5_specs.txt` en el directorio de trabajo, conteniendo todas las flags del sistema (versión de SDK, configuración de Bluetooth, detalles del kernel, etc.).
 
