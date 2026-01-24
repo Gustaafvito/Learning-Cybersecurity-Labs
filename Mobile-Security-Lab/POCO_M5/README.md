@@ -195,3 +195,9 @@ Desde la terminal de Kali, lanzamos el servidor VNC.
 
 ![Servidor Kex Iniciado](img/21-kex-server-start.png)
 
+### 4.6 Resolución de Errores Gráficos
+Al iniciar por primera vez, es posible que el panel XFCE muestre un error de carga de plugin ("null").
+- **Solución:** Eliminar el plugin defectuoso mediante la interfaz táctil o ajustando el modo de entrada ("Touch Mode") en el cliente KeX.
+- **Estado Final:** Escritorio totalmente funcional y estable.
+
+![Escritorio Kali Final](img/23-kali-desktop-final.png)
