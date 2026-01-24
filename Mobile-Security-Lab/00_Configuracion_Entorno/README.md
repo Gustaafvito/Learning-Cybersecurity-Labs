@@ -33,6 +33,20 @@ El sistema devuelve la versión instalada, confirmando que ADB está listo para 
 ![Versión Terminal](img/02_verificacion_terminal.png)
 
 ---
+## 🛠️ Herramientas de Visualización y Control
+
+### Scrcpy (Screen Copy)
+Herramienta de código abierto para visualizar y controlar dispositivos Android conectados por USB (o TCP/IP) desde el PC. No requiere acceso *root*.
+
+#### Instalación
+1.  Descargar la última versión de `scrcpy` para Windows (x64).
+2.  Descomprimir el contenido dentro de la carpeta principal de herramientas (ej. `C:\adb\`).
+    * *Nota:* Se recomienda sobrescribir los archivos `adb.exe` y `.dll` si `scrcpy` trae versiones más recientes.
+
+#### Uso
+Ejecutar desde terminal (PowerShell/CMD) en el directorio de trabajo:
+```powershell
+.\scrcpy
 
 ## ⏭️ Siguientes Pasos
 Ahora que el entorno está configurado, el siguiente paso es ir a la carpeta específica del dispositivo (ej: `/POCO_M5`) para realizar la conexión y extracción de datos.
