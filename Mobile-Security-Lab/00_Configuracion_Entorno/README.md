@@ -1,55 +1,38 @@
-# 🛠️ Configuración del Entorno de Trabajo: ADB y Fastboot
+# 🛠️ Configuración del Entorno: ADB y Fastboot
 
-Este documento detalla el procedimiento estándar para instalar las herramientas **Android Debug Bridge (ADB)** y **Fastboot** en un entorno Windows. Estas herramientas son indispensables para la comunicación a bajo nivel con dispositivos Android (instalación de APKs, extracción de logs, desbloqueo de bootloader, etc.).
+Guía de instalación de las herramientas **Android Debug Bridge (ADB)** en Windows. Este es el paso previo necesario antes de conectar cualquier móvil.
 
-## 📋 Requisitos Previos
-
-* Un PC con Windows.
-* Acceso a internet para descargar los binarios oficiales.
-
----
-
-## 🚀 Proceso de Instalación
-
-A diferencia de software convencional, ADB no utiliza un instalador `.exe`. Se trata de herramientas portables que deben ubicarse manualmente en el sistema.
-
-### 1. Descarga de Binarios Oficiales
-
-Utilizamos exclusivamente las **SDK Platform-Tools** proporcionadas por Google para garantizar la seguridad y estabilidad.
-
-* **Enlace de descarga:** [Android Developers - SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools)
-* **Archivo:** Descargar la versión correspondiente a Windows (archivo `.zip`).
-
-### 2. Despliegue de Archivos
-
-Para asegurar un funcionamiento correcto y una ruta de acceso sencilla en la terminal, se recomienda instalar las herramientas en la raíz del disco del sistema.
-
-**Pasos:**
-1.  Crear una carpeta llamada `adb` en la raíz del disco local `C:\`. Ruta final: `C:\adb\`.
-2.  Extraer el contenido del archivo `.zip` descargado directamente en el interior de esta carpeta.
-
-**Resultado esperado:**
-La carpeta debe contener los ejecutables `adb.exe`, `fastboot.exe` y las librerías DLL necesarias, como se muestra en la siguiente imagen:
-
-![Archivos ADB en la raíz](img/01_archivos_adb_raiz.png)
-
-*Figura 1: Estructura de archivos correcta en C:\adb\*
+## 📋 Requisitos
+* PC con Windows.
+* Descarga oficial: [SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools)
 
 ---
 
-## ✅ Verificación de la Instalación
+## 🚀 1. Instalación Manual
 
-Para confirmar que el sistema puede ejecutar las herramientas correctamente, realizaremos una prueba desde la terminal.
+1.  Crear una carpeta llamada `adb` en la raíz del disco local `C:\`.
+2.  Descomprimir el contenido del ZIP descargado dentro de esa carpeta.
 
-**Pasos:**
-1.  Navegar a la carpeta de instalación (`C:\adb`).
-2.  Abrir una terminal (PowerShell o CMD) en esta ubicación.
-    * *Tip: Shift + Clic Derecho en un espacio vacío -> "Abrir ventana de PowerShell aquí".*
-3.  Ejecutar el comando de versión:
+**Resultado Correcto:**
+La ruta debe ser `C:\adb\` y contener los ejecutables `adb.exe` y `fastboot.exe`:
 
-```powershell
-# Si usas PowerShell:
-.\adb version
+![Archivos ADB](img/01_archivos_adb_raiz.png)
 
-# Si usas CMD:
-adb version
+---
+
+## ✅ 2. Verificación del Sistema
+
+Para confirmar que la herramienta funciona, abrimos una terminal y consultamos la versión.
+
+1.  Abrir PowerShell en la carpeta `C:\adb`.
+2.  Ejecutar el comando: `.\adb version`
+
+**Resultado Correcto:**
+El sistema devuelve la versión instalada, confirmando que ADB está listo para usarse:
+
+![Versión Terminal](img/02_verificacion_terminal.png)
+
+---
+
+## ⏭️ Siguientes Pasos
+Ahora que el entorno está configurado, el siguiente paso es ir a la carpeta específica del dispositivo (ej: `/POCO_M5`) para realizar la conexión y extracción de datos.
