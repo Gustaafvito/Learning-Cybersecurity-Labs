@@ -116,3 +116,11 @@ Termux requiere un gestor de descargas por línea de comandos para obtener el sc
 Comprobamos que el binario está accesible en el `PATH` del sistema.
 
 ![Verificación de Wget](img/12-install-wget.png)
+---
+### 3.2 Obtención del Instalador
+Descargamos el script oficial de Offensive Security. Este script automatiza la descarga de la imagen del sistema de archivos (rootfs) y configura el entorno *proot* para que Kali funcione sobre el kernel de Android.
+
+- **Comando:** `wget -O install-nethunter-termux https://offs.ec/2MceZWr`
+- **Integridad:** El servidor responde con código 200 OK y guarda el fichero `install-nethunter-termux`.
+
+![Descarga del Script Exitosa](img/13-download-script.png)
