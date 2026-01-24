@@ -1,25 +1,54 @@
-# 🛠️ Configuración del Entorno de Hacking Android (ADB & Fastboot)
+# 🛠️ Configuración del Entorno de Trabajo: ADB y Fastboot
 
-Este documento detalla el proceso de instalación de las **Android SDK Platform Tools** en Windows. Estas herramientas son necesarias para interactuar con los dispositivos (instalar apps, extraer logs, flashear ROMs, etc.).
+Este documento detalla el procedimiento estándar para instalar las herramientas **Android Debug Bridge (ADB)** y **Fastboot** en un entorno Windows. Estas herramientas son indispensables para la comunicación a bajo nivel con dispositivos Android (instalación de APKs, extracción de logs, desbloqueo de bootloader, etc.).
 
-## 1. Descarga de Herramientas
-No utilizamos instaladores `.exe` de terceros. Usamos los binarios oficiales de Google para máxima seguridad.
+## 📋 Requisitos Previos
 
-* **Fuente Oficial:** [Android Developers - SDK Platform Tools](https://developer.android.com/tools/releases/platform-tools)
-* **Archivo descargado:** `platform-tools_rXX.X.X-windows.zip`
+* Un PC con Windows.
+* Acceso a internet para descargar los binarios oficiales.
 
-## 2. Instalación "Manual" (Recomendada)
-Para mantener el sistema limpio y portable, realizamos una instalación manual en la raíz del disco.
+---
 
-### Pasos realizados:
-1.  Descomprimir el archivo ZIP descargado.
-2.  Renombrar la carpeta resultante a `adb`.
-3.  Mover la carpeta a la raíz del disco local para tener una ruta corta y sin espacios.
-    * **Ruta final:** `C:\adb\`
+## 🚀 Proceso de Instalación
 
-## 3. Verificación de la Instalación
-Abrimos una terminal (PowerShell o CMD) y navegamos a la ruta de instalación para verificar que el binario funciona.
+A diferencia de software convencional, ADB no utiliza un instalador `.exe`. Se trata de herramientas portables que deben ubicarse manualmente en el sistema.
+
+### 1. Descarga de Binarios Oficiales
+
+Utilizamos exclusivamente las **SDK Platform-Tools** proporcionadas por Google para garantizar la seguridad y estabilidad.
+
+* **Enlace de descarga:** [Android Developers - SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools)
+* **Archivo:** Descargar la versión correspondiente a Windows (archivo `.zip`).
+
+### 2. Despliegue de Archivos
+
+Para asegurar un funcionamiento correcto y una ruta de acceso sencilla en la terminal, se recomienda instalar las herramientas en la raíz del disco del sistema.
+
+**Pasos:**
+1.  Crear una carpeta llamada `adb` en la raíz del disco local `C:\`. Ruta final: `C:\adb\`.
+2.  Extraer el contenido del archivo `.zip` descargado directamente en el interior de esta carpeta.
+
+**Resultado esperado:**
+La carpeta debe contener los ejecutables `adb.exe`, `fastboot.exe` y las librerías DLL necesarias, como se muestra en la siguiente imagen:
+
+![Archivos ADB en la raíz](imagenes/01_archivos_adb_raiz.png)
+*Figura 1: Estructura de archivos correcta en C:\adb\*
+
+---
+
+## ✅ Verificación de la Instalación
+
+Para confirmar que el sistema puede ejecutar las herramientas correctamente, realizaremos una prueba desde la terminal.
+
+**Pasos:**
+1.  Navegar a la carpeta de instalación (`C:\adb`).
+2.  Abrir una terminal (PowerShell o CMD) en esta ubicación.
+    * *Tip: Shift + Clic Derecho en un espacio vacío -> "Abrir ventana de PowerShell aquí".*
+3.  Ejecutar el comando de versión:
 
 ```powershell
-cd C:\adb
+# Si usas PowerShell:
 .\adb version
+
+# Si usas CMD:
+adb version
