@@ -164,3 +164,13 @@ Para iniciar la sesión en el sistema ofensivo, utilizamos el atajo configurado 
 ![Shell de Kali NetHunter Activa](img/17-nethunter-shell.png)
 
 ---
+## 4. Fase 4: Despliegue de Interfaz Gráfica (KeX)
+
+Para habilitar el entorno de escritorio completo (XFCE), configuramos el servidor VNC (Virtual Network Computing) integrado en NetHunter.
+
+### 4.1 Seguridad de Acceso (VNC Password)
+Establecemos las credenciales de autenticación para el servidor gráfico. Esto protege la sesión visual contra conexiones no autorizadas locales.
+- **Comando:** `kex passwd`
+- **Configuración:** Se define una clave de escritura (Full Access) y se descarta la clave de solo lectura (View-only).
+
+![Configuración de Clave VNC](img/18-kex-password.png)
