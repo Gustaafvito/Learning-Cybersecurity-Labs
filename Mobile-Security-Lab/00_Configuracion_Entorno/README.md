@@ -63,4 +63,4 @@ La ejecución es exitosa. Como se observa en la evidencia, el sistema despliega 
 1.  **Consola de comandos:** Muestra el registro de conexión ADB (incluyendo el aviso de seguridad específico de Xiaomi en rojo, que abordaremos en la nota inferior).
 2.  **Ventana Espejo (POCO M5):** Visualización en tiempo real de la pantalla del dispositivo, confirmando el control remoto.
 
-![Scrcpy Funcionando y Consola](img/04-scrcpy-running.jpg)
+![Scrcpy Funcionando y Consola](img/04-scrcpy-running.png)
