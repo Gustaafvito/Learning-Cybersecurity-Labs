@@ -93,3 +93,12 @@ La aparición del prompt `$` confirma que el **User Space Linux** está activo y
 ![Termux Shell Activo](img/10-termux-shell.png)
 
 ---
+
+### 2.7 Puesta a Punto (System Update)
+Antes de desplegar herramientas ofensivas, es crítico asegurar que el entorno base tenga los últimos parches de seguridad y dependencias. Ejecutamos la actualización completa de los repositorios y paquetes del sistema.
+
+- **Comando:** `pkg update -y && pkg upgrade -y`
+
+![Actualización de Termux Completada](img/11-termux-update.png)
+
+---
