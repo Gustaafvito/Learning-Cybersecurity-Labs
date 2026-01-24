@@ -156,3 +156,11 @@ Tras la extracción del sistema de archivos, el instalador configura los scripts
 ![Instalación Exitosa de Kali NetHunter](img/16-install-success.png)
 
 ---
+### 3.6 Acceso al Entorno (Shell Kali)
+Para iniciar la sesión en el sistema ofensivo, utilizamos el atajo configurado en el `PATH`.
+- **Comando:** `nh` (o `nethunter`).
+- **Verificación:** El cambio del prompt a `(kali@localhost)` indica que la sesión terminal ha sido transferida exitosamente al entorno *chroot* de Kali Linux.
+
+![Shell de Kali NetHunter Activa](img/17-nethunter-shell.png)
+
+---
