@@ -20,6 +20,10 @@ En lugar de tomar notas manuales, realizamos un volcado completo de las propieda
   ./adb shell getprop > POCO_M5_specs.txt
 
 ![Ejecución...](img/02-volcado.png)
+> **💡 ¿Qué hace este comando?**
+> * **`adb shell`**: Abre una puerta para enviar órdenes directas al sistema operativo del móvil.
+> * **`getprop`**: Abreviatura de *"Get Properties"* (Obtener Propiedades). Le pide al dispositivo su "ADN" completo: modelo de procesador, versión de seguridad, configuración de pantalla, etc.
+> * **`>`**: Este símbolo es un **operador de redirección**. En lugar de escupir las miles de líneas de texto en la pantalla de la terminal, las "vuelca" silenciosamente dentro del archivo `.txt` para guardarlas como evidencia.
 
 ### 1.3 Verificación de la Evidencia
 Se generó correctamente el archivo `POCO_M5_specs.txt` en el directorio de trabajo, conteniendo todas las flags del sistema (versión de SDK, configuración de Bluetooth, detalles del kernel, etc.).
