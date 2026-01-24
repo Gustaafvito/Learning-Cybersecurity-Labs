@@ -148,3 +148,11 @@ El sistema solicita confirmación para eliminar el archivo comprimido original. 
 ![Descarga y Extracción Completada](img/15-download-complete.png)
 
 ---
+### 3.5 Finalización y Limpieza
+Tras la extracción del sistema de archivos, el instalador configura los scripts de arranque en `/data/data/com.termux/files/usr/bin/`.
+- **Limpieza:** Se conserva el archivo rootfs descargado (elección "No" al borrado) como medida de respaldo para futuras reconfiguraciones.
+- **Resultado:** El banner "Installed successfully" confirma que el entorno `proot` está enlazado correctamente.
+
+![Instalación Exitosa de Kali NetHunter](img/16-install-success.png)
+
+---
