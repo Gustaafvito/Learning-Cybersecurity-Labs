@@ -10,7 +10,7 @@ Tras activar las "Opciones de desarrollador" y la "Depuración USB", realizamos 
 - **Comando:** `./adb devices`
 - **Resultado:** El dispositivo pasó de `unauthorized` a `device`, confirmando control total.
 
-![Estado Device Autorizado](/img/01-device.png)
+![Estado Device Autorizado](img/01-device.png)
 
 ### 1.2 Extracción de Ficha Técnica (Forensics)
 En lugar de tomar notas manuales, realizamos un volcado completo de las propiedades del sistema (`build.prop`) para tener una referencia exacta del hardware y software.
@@ -22,5 +22,5 @@ En lugar de tomar notas manuales, realizamos un volcado completo de las propieda
 ### 1.3 Verificación de la Evidencia
 Se generó correctamente el archivo `POCO_M5_specs.txt` en el directorio de trabajo, conteniendo todas las flags del sistema (versión de SDK, configuración de Bluetooth, detalles del kernel, etc.).
 
-![Archivo generado en Windows](/img/03-archivo.png)
-![Vista previa de los datos internos](/img/04-vista%20informacion%20del%20movil.png)
+![Archivo generado en Windows](img/03-archivo.png)
+![Vista previa de los datos internos](img/04-vista%20informacion%20del%20movil.png)
