@@ -102,3 +102,17 @@ Antes de desplegar herramientas ofensivas, es crítico asegurar que el entorno b
 ![Actualización de Termux Completada](img/11-termux-update.png)
 
 ---
+## 3. Fase 3: Instalación de Kali NetHunter (Rootless)
+
+En esta fase descargamos e instalamos el sistema operativo de pentesting sobre la capa de emulación Termux.
+
+### 3.1 Preparación de Herramientas de Red
+Termux requiere un gestor de descargas por línea de comandos para obtener el script de instalación oficial.
+
+- **Herramienta:** `wget` (GNU Wget).
+- **Comando:** `pkg install wget -y`
+
+**Validación:**
+Comprobamos que el binario está accesible en el `PATH` del sistema.
+
+![Verificación de Wget](img/12-install-wget.png)
