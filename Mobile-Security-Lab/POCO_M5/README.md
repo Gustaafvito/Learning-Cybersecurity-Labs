@@ -174,3 +174,8 @@ Establecemos las credenciales de autenticación para el servidor gráfico. Esto 
 - **Configuración:** Se define una clave de escritura (Full Access) y se descarta la clave de solo lectura (View-only).
 
 ![Configuración de Clave VNC](img/18-kex-password.png)
+
+### 4.2 Cliente de Visualización (KeX App)
+Para renderizar el entorno de escritorio XFCE, utilizamos el cliente VNC optimizado "NetHunter KeX". Esta aplicación no se encuentra en Google Play, por lo que se obtiene desde el repositorio dedicado de Kali.
+
+![Tienda NetHunter Store](img/19-nethunter-store.png)
