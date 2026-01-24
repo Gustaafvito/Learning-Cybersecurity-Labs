@@ -133,3 +133,17 @@ Ejecutamos el instalador (`./install-nethunter-termux`). El script verifica la a
 3.  **Nano:** Instalación ultra-ligera.
 
 ![Menú de Selección NetHunter](img/14-kali-banner.png)
+
+--
+### 3.4 Despliegue de la Imagen (Rootfs)
+El sistema procede a la descarga del archivo `rootfs` (sistema de archivos) completo.
+- **Tamaño:** ~2.1 GB.
+- **Tiempo de ejecución:** ~15 minutos (dependiendo del ancho de banda).
+- **Extracción:** Una vez descargado, el script descomprime el contenedor automáticamente.
+
+**Validación:**
+El sistema solicita confirmación para eliminar el archivo comprimido original. La aparición de este mensaje confirma que la extracción ha finalizado sin errores.
+
+![Descarga y Extracción Completada](img/15-download-complete.png)
+
+--
