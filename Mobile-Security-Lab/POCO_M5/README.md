@@ -79,3 +79,17 @@ Dentro de F-Droid, seleccionamos el paquete "Termux Emulador de terminal con paq
 
 ![Instalación de Termux en F-Droid](img/08-termux-install.png)
 
+### 2.5 Evasión de Restricciones de Seguridad (Troubleshooting)
+Durante la instalación, el subsistema **Google Play Protect** puede bloquear el despliegue del paquete. Esto es un comportamiento esperado (falso positivo) dado que Termux no cumple con las directrices de API modernas de Google (target SDK restrictions) para mantener su funcionalidad de sistema.
+
+* **Acción Correctiva:** Seleccionar "Más detalles" -> "Instalar de todas formas".
+
+![Bypass de Google Play Protect](img/09-security-bypass.png)
+
+### 2.6 Inicialización del Entorno (Shell)
+Tras la ejecución inicial, el sistema realiza el *bootstrap* (instalación de paquetes esenciales: `bash`, `coreutils`, `tar`, etc.).
+La aparición del prompt `$` confirma que el **User Space Linux** está activo y listo para recibir comandos.
+
+![Termux Shell Activo](img/10-termux-shell.png)
+
+---
