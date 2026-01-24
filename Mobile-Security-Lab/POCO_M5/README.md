@@ -124,3 +124,12 @@ Descargamos el script oficial de Offensive Security. Este script automatiza la d
 - **Integridad:** El servidor responde con código 200 OK y guarda el fichero `install-nethunter-termux`.
 
 ![Descarga del Script Exitosa](img/13-download-script.png)
+
+--
+### 3.3 Inicialización y Selección de Imagen
+Ejecutamos el instalador (`./install-nethunter-termux`). El script verifica la arquitectura del procesador (ARM64) y presenta las ediciones disponibles:
+1.  **Full:** Contiene todas las herramientas (Metasploit, Nmap, etc.). Recomendada.
+2.  **Minimal:** Solo herramientas básicas.
+3.  **Nano:** Instalación ultra-ligera.
+
+![Menú de Selección NetHunter](img/14-kali-banner.png)
