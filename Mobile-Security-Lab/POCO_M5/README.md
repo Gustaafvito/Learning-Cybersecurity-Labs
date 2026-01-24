@@ -179,3 +179,12 @@ Establecemos las credenciales de autenticación para el servidor gráfico. Esto 
 Para renderizar el entorno de escritorio XFCE, utilizamos el cliente VNC optimizado "NetHunter KeX". Esta aplicación no se encuentra en Google Play, por lo que se obtiene desde el repositorio dedicado de Kali.
 
 ![Tienda NetHunter Store](img/19-nethunter-store.png)
+
+### 4.3 Configuración del Cliente
+Abrimos la aplicación NetHunter KeX y preparamos los parámetros de conexión.
+- **Connection Type:** Basic VNC.
+- **Target:** localhost:1 (El puerto por defecto para el display :1 es 5901).
+- **Auth:** Requiere la contraseña definida previamente.
+
+![Configuración KeX](img/20-kex-client.png)
+
