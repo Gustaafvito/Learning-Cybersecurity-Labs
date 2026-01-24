@@ -53,3 +53,20 @@ Durante la planificación, se descartó el uso de *Google Play Store* para la ob
 | **F-Droid** | ✅ Active | **APROBADO** | Repositorio de Software Libre (FOSS). Garantiza binarios firmados por el desarrollador original y compatibilidad total con los scripts de instalación de NetHunter. |
 
 ---
+### 2.3 Implementación de la Fuente Segura (F-Droid)
+Procedemos a la instalación del cliente F-Droid para gestionar los paquetes de software libre necesarios para la auditoría.
+
+**1. Obtención del Binario (Source Validation)**
+Accedemos al portal oficial (`f-droid.org`) para descargar el paquete `.apk`. Esto garantiza la integridad del instalador y evita versiones adulteradas de terceros.
+
+![Fuente Oficial](img/05-fdroid-source.png)
+
+**2. Confirmación de Instalación**
+El sistema solicita confirmación para desplegar el paquete. Al no provenir de Google Play, se valida manualmente el permiso de instalación.
+
+![Instalación del APK](img/06-fdroid-install.png)
+
+**3. Sincronización de Repositorios**
+Tras el primer inicio, el cliente actualiza los índices de software (mirrors). La carga correcta de los iconos confirma que tenemos conexión segura con el repositorio FOSS y estamos listos para descargar Termux.
+
+![F-Droid Operativo](img/07-fdroid-running.png)
