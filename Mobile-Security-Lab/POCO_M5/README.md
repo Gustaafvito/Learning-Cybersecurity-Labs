@@ -70,3 +70,12 @@ El sistema solicita confirmación para desplegar el paquete. Al no provenir de G
 Tras el primer inicio, el cliente actualiza los índices de software (mirrors). La carga correcta de los iconos confirma que tenemos conexión segura con el repositorio FOSS y estamos listos para descargar Termux.
 
 ![F-Droid Operativo](img/07-fdroid-running.png)
+
+### 2.4 Despliegue del Motor Base (Termux)
+Una vez establecido el repositorio seguro, procedemos a instalar el emulador de terminal principal. Este componente proveerá el entorno Linux (espacio de usuario) necesario para ejecutar las herramientas de Kali.
+
+**Selección del Paquete:**
+Dentro de F-Droid, seleccionamos el paquete "Termux Emulador de terminal con paquetes".
+
+![Instalación de Termux en F-Droid](img/08-termux-install.png)
+
