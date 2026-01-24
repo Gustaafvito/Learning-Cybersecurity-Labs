@@ -57,10 +57,10 @@ Al ejecutar `scrcpy.exe` por primera vez, Windows Defender SmartScreen puede sol
 
 ![Advertencia de Seguridad](img/03-smartscreen-warning.png)
 
-### 4. Validación de Funcionamiento
-El script levanta un servidor ADB y abre una ventana espejo con baja latencia (35~70ms).
+## 4. Validación de Funcionamiento
+La ejecución es exitosa. Como se observa en la evidencia, el sistema despliega dos ventanas:
 
-**Comando de ejecución rápida:**
-```powershell
-cd C:\adb\scrcpy
-.\scrcpy.exe
+1.  **Consola de comandos:** Muestra el registro de conexión ADB (incluyendo el aviso de seguridad específico de Xiaomi en rojo, que abordaremos en la nota inferior).
+2.  **Ventana Espejo (POCO M5):** Visualización en tiempo real de la pantalla del dispositivo, confirmando el control remoto.
+
+![Scrcpy Funcionando y Consola](img/04-scrcpy-running.jpg)
