@@ -188,3 +188,10 @@ Abrimos la aplicación NetHunter KeX y preparamos los parámetros de conexión.
 
 ![Configuración KeX](img/20-kex-client.png)
 
+### 4.4 Inicialización del Servicio Gráfico
+Desde la terminal de Kali, lanzamos el servidor VNC.
+- **Comando:** `kex`
+- **Resultado:** El sistema levanta el proceso Xtigervnc en el puerto `5901` (Display :1). La sesión queda activa en segundo plano.
+
+![Servidor Kex Iniciado](img/21-kex-server-start.png)
+
