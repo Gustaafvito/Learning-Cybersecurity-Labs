@@ -31,7 +31,7 @@ Para asegurar un funcionamiento correcto y una ruta de acceso sencilla en la ter
 **Resultado esperado:**
 La carpeta debe contener los ejecutables `adb.exe`, `fastboot.exe` y las librerías DLL necesarias, como se muestra en la siguiente imagen:
 
-![Archivos ADB en la raíz](imagenes/01_archivos_adb_raiz.png)
+![Archivos ADB en la raíz](img/01_archivos_adb_raiz.png)
 *Figura 1: Estructura de archivos correcta en C:\adb\*
 
 ---
