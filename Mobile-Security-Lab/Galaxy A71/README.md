@@ -25,3 +25,18 @@ Tras conectar el cable USB y aceptar la huella RSA en el dispositivo, establecem
 **Comando ejecutado:**
 ```bash
 scrcpy
+```
+
+### 🔓 3. Desbloqueo de Bootloader (El paso crítico)
+
+Tras verificar la conexión, confirmamos que la opción **Desbloqueo de OEM** está disponible y la activamos.
+
+> **⚠️ AVISO:** Al activar este interruptor y proceder con el desbloqueo físico, la seguridad KNOX se romperá (0x1) y la garantía se anulará.
+
+> **Evidencia:**
+> ![Desbloqueo OEM Activado](img/desbloqueo_oem_activado.png)
+
+---
+**Estado actual:** Listo para `Download Mode` y flasheo de Recovery.
+
+
