@@ -10,6 +10,15 @@
 | **Fecha** | Enero 2026 |
 
 ---
+### ⚠️ DESCARGO DE RESPONSABILIDAD (DISCLAIMER)
+
+> **Tu garantía es ahora nula.**
+>
+> No soy responsable de dispositivos brickeados, tarjetas SD muertas, guerras termonucleares, o de que te despidan porque la aplicación de alarma falló. Por favor, investiga si tienes alguna duda sobre las características incluidas en esta ROM antes de flashearla. TÚ eres quien elige hacer estas modificaciones, y si señalas con el dedo a este repositorio por estropear tu dispositivo, me reiré de ti.
+>
+> * **KNOX 0x1:** Al realizar este proceso, el fusible electrónico e-fuse de Samsung (Knox) se ha quemado irreversiblemente. Funciones como Samsung Pay o Carpeta Segura ya no funcionarán nunca más.
+
+---
 
 ## 🎯 1. Objetivo de la Misión
 El objetivo principal es recuperar la soberanía del dispositivo. Los terminales Samsung de fábrica incluyen capas de software (Knox, OneUI) y servicios de Google que monitorean la actividad del usuario y consumen recursos en segundo plano.
@@ -134,7 +143,7 @@ Tras reiniciar, el sistema arranca en **LineageOS**. Se realizan las verificacio
 
 ### 🖥️ Interfaz de Usuario
 Escritorio limpio, sin bloatware, utilizando el launcher Trebuchet de código abierto.
-> ![Home Screen](img/10_home_screen.jpg)
+> ![Home Screen](img/10_home_screen.png)
 
 ### ⚙️ Especificaciones Técnicas
 Confirmación absoluta del éxito de la operación:
