@@ -41,6 +41,7 @@ Se descargaron las imágenes oficiales de la build `lineage-23.0` para `a71`.
 * `lineage-*.zip` (El nuevo cerebro).
 
 > **Organización de Archivos:**
+
 > ![Archivos](img/archivos_lineageos.png)
 
 ---
