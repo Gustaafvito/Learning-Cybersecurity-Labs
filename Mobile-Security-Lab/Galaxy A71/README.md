@@ -53,3 +53,16 @@ El dispositivo entra en modo de descarga y solicita confirmación física.
 
 ---
 **✅ ESTADO FINAL:** Bootloader abierto. KNOX 0x1. Listo para flashear Custom Recovery.
+
+## ⚙️ 4. Preparación del Paquete de Recuperación
+
+Samsung Odin requiere que las imágenes de partición (`.img`) estén encapsuladas en un archivo `.tar` para su flasheo a través del slot AP.
+
+**Archivos procesados:**
+* `recovery.img` (Lineage Recovery)
+* `vbmeta.img` (Verified Boot Metadata)
+
+**Acción realizada:**
+Empaquetado mediante 7-Zip en formato TAR.
+> **Resultado:** `lineage_recovery.tar` listo para inyección.
+> 
