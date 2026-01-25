@@ -10,13 +10,16 @@
 | **Fecha** | Enero 2026 |
 
 ---
-### ⚠️ DESCARGO DE RESPONSABILIDAD (DISCLAIMER)
 
-> **Tu garantía es ahora nula.**
+### ⚠️ AVISO LEGAL Y EXENCIÓN DE RESPONSABILIDAD
+
+> **Advertencia sobre la Garantía y Riesgos**
 >
-> No soy responsable de dispositivos brickeados, tarjetas SD muertas, guerras termonucleares, o de que te despidan porque la aplicación de alarma falló. Por favor, investiga si tienes alguna duda sobre las características incluidas en esta ROM antes de flashearla. TÚ eres quien elige hacer estas modificaciones, y si señalas con el dedo a este repositorio por estropear tu dispositivo, me reiré de ti.
+> La información y herramientas proporcionadas en este repositorio implican la modificación de particiones críticas del sistema.
 >
-> * **KNOX 0x1:** Al realizar este proceso, el fusible electrónico e-fuse de Samsung (Knox) se ha quemado irreversiblemente. Funciones como Samsung Pay o Carpeta Segura ya no funcionarán nunca más.
+> 1.  **Anulación de Garantía:** El desbloqueo del bootloader provoca la activación irreversible del fusible electrónico KNOX (0x1). Esto anula la garantía oficial de Samsung y deshabilita permanentemente funciones de seguridad como Samsung Pay, Secure Folder y Samsung Pass.
+> 2.  **Riesgo de Daños:** El autor de esta documentación no se hace responsable de daños en el hardware (bricking), pérdida de datos o mal funcionamiento del dispositivo derivado de la ejecución de estos procedimientos.
+> 3.  **Responsabilidad del Usuario:** El usuario asume toda la responsabilidad sobre las modificaciones realizadas en su terminal. Se recomienda realizar una copia de seguridad completa antes de proceder.
 
 ---
 
