@@ -39,4 +39,17 @@ Tras verificar la conexión, confirmamos que la opción **Desbloqueo de OEM** es
 ---
 **Estado actual:** Listo para `Download Mode` y flasheo de Recovery.
 
+### 🔓 4. Confirmación Física del Desbloqueo
 
+El dispositivo entra en modo de descarga y solicita confirmación física.
+
+> **Paso 1: Confirmación**
+> Pulsamos **Volumen Arriba** (Long Press) para entrar en modo Unlock y luego un toque corto para confirmar.
+> ![Confirmacion Unlock](img/confirmacion_unlock.jpg)
+
+> **Paso 2: Resultado**
+> Al reiniciar, el sistema muestra la advertencia de seguridad que confirma el estado **UNLOCKED**.
+> ![Aviso Bootloader](img/aviso_bootloader_unlocked.jpg)
+
+---
+**✅ ESTADO FINAL:** Bootloader abierto. KNOX 0x1. Listo para flashear Custom Recovery.
