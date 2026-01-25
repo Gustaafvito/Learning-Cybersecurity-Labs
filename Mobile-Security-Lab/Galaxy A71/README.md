@@ -1,20 +1,27 @@
-# 📱 Samsung Galaxy A71 - Configuración y Uso
+# 📱 Samsung Galaxy A71 (SM-A715F) - Auditoría y Conexión
 
-Documentación de conexión, configuración y atajos para controlar el Samsung Galaxy A71 mediante `scrcpy`.
+Documentación técnica del proceso de conexión y configuración del dispositivo para el laboratorio de seguridad móvil.
 
-## 🛠️ Requisitos Previos (En el A71)
+## 🛠️ 1. Preparación del Entorno (Modo Desarrollador)
 
-Para permitir la conexión ADB es necesario activar las opciones de desarrollador:
+El primer paso crítico es habilitar el puente de depuración (ADB) oculto por defecto en Android 13 (One UI 5.1).
 
-1. Ir a **Ajustes** > **Acerca del teléfono** > **Información de software**.
-2. Pulsar **7 veces** sobre **Número de compilación** (introducir PIN si lo pide).
-3. Volver a Ajustes, entrar en **Opciones de desarrollador**.
-4. Activar **Depuración por USB**.
+### Habilitar opciones de desarrollo
+Navegamos a **Ajustes > Información de software** y pulsamos 7 veces sobre el número de compilación.
 
-## 🚀 Conexión Rápida
+> **Evidencia:**
+> ![Numero de Compilacion](img/Numero%20compilacion.png)
 
-1. Conectar el móvil por USB al PC.
-2. Aceptar la huella digital RSA en la pantalla del móvil ("Permitir siempre...").
-3. Ejecutar el comando:
-   ```bash
-   scrcpy
+### Activar Depuración USB
+Una vez habilitado el menú secreto, accedemos a **Opciones de desarrollador** y activamos el interruptor de depuración.
+
+> **Evidencia:**
+> ![Opciones de Desarrollador](img/Opciones%20de%20desarrollador.png)
+
+## 💻 2. Conexión Exitosa con Scrcpy
+
+Tras conectar el cable USB y aceptar la huella RSA en el dispositivo, establecemos la conexión.
+
+**Comando ejecutado:**
+```bash
+scrcpy
