@@ -87,6 +87,7 @@ Odin no acepta `.img` sueltos. Empaquetamos `recovery.img` + `vbmeta.img` en un 
 **2. Configuración Crítica de Odin:**
 * **AP Slot:** Cargamos nuestro archivo `.tar`.
 * **Auto Reboot:** **OFF** (Desactivado). *Esto es vital. Si se deja activado, Android reinicia y restaura el recovery original antes de que podamos usar el nuevo.*
+  
     ![Odin Config](img/4_odin_setup.png)
 
 **3. Ejecución (Modo Download):**
