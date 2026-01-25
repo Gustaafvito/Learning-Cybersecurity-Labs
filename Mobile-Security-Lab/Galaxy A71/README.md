@@ -156,6 +156,8 @@ Confirmación absoluta del éxito de la operación:
 
 > ![Final Specs](img/11_final_specs.png)
 
+### 🎥 Demostración de Funcionamiento
+![Demo LineageOS](img/lineageos_demo.gif)
 ---
 **✅ CONCLUSIÓN:**
 La operación ha sido un éxito total. El Samsung Galaxy A71 ha pasado de ser un dispositivo obsoleto y vigilado a ser una herramienta de privacidad potente y actualizada.
