@@ -16,7 +16,7 @@ Navegamos a **Ajustes > Información de software** y pulsamos 7 veces sobre el n
 Una vez habilitado el menú secreto, accedemos a **Opciones de desarrollador** y activamos el interruptor de depuración.
 
 > **Evidencia:**
-> ![Opciones de Desarrollador](img/Opciones_desarrollador.png)
+> ![Opciones de Desarrollador](img/opciones_desarrollador.png)
 
 ## 💻 2. Conexión Exitosa con Scrcpy
 
