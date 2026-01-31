@@ -62,18 +62,21 @@ Se seleccionó EndeavourOS por su instalador maduro y su cercanía a Arch puro.
 
 7. **Configuración de Mirrors:**
    ![Mirrors](img/07_seleccion_mirror_descarga.png)
+   
    ![Descarga](img/08_descarga_iso_endeavour.png)
 
-8. **Arranque del Nuevo Motor:**
+9. **Arranque del Nuevo Motor:**
    ![Boot Endeavour](img/09_boot_menu_endeavouros.png)
+
    ![Entorno Live](img/10_entorno_live_endeavour.png)
 
-9. **La Clave del Éxito (Modo Offline):**
+10. **La Clave del Éxito (Modo Offline):**
    Se seleccionó la instalación **Offline** para desplegar el escritorio XFCE nativo desde la ISO, eliminando riesgos de red durante la instalación base.
    ![Installer](img/11_inicio_instalador_calamares.png)
+   
    ![Modo Offline](img/12_seleccion_modo_offline_seguro.png)
 
-10. **Primer Boot Exitoso:**
+11. **Primer Boot Exitoso:**
     ![Arranque Exitoso](img/13_primer_boot_exitoso_grub.png)
 
 ---
