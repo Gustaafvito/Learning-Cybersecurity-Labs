@@ -1,7 +1,7 @@
-🛡️ Lab Deployment: BlackArch Linux "The Smart Way" (via EndeavourOS)
-⚠️ Disclaimer: Este repositorio y documentación han sido creados exclusivamente con fines educativos y de investigación en Ciberseguridad. El autor no se hace responsable del mal uso de las herramientas aquí descritas. "Knowledge is power, but power requires responsibility."
+#🛡️ Lab Deployment: BlackArch Linux "The Smart Way" (via EndeavourOS)
+<⚠️ Disclaimer: Este repositorio y documentación han sido creados exclusivamente con fines educativos y de investigación en Ciberseguridad. El autor no se hace responsable del mal uso de las herramientas aquí descritas. "Knowledge is power, but power requires responsibility."
 
-🎯 Objetivo del Proyecto
+>🎯 Objetivo del Proyecto
 Desplegar un laboratorio de pruebas de penetración (Pentesting) robusto y actualizado, integrando el repositorio oficial de BlackArch Linux (+2800 herramientas) sobre una base de sistema estable.
 
 Este proyecto documenta el proceso de Troubleshooting y resolución de conflictos al intentar virtualizar la ISO oficial Legacy, y cómo se solucionó mediante una arquitectura modular.
