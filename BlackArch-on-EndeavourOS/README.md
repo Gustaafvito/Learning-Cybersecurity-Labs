@@ -106,10 +106,11 @@ sudo ./strap.sh
 
 ### 📸 Resultados de la Integración
 
-14. **Ejecución del Script:** El script actualizó automáticamente las llaves GPG y configuró los espejos de descarga.
+12. **Ejecución del Script:** El script actualizó automáticamente las llaves GPG y configuró los espejos de descarga.
     ![Ejecución](img/14_ejecucion_script_blackarch_strap.png)
    
-16. **Confirmación:** El sistema confirma: `BlackArch repository is ready!`.
+13. **Confirmación:** El sistema confirma: `BlackArch repository is ready!`.
+![Confirmación](img/15_repositorio_blackarch_integrado.png)
 
 > **Nota Técnica:** El script habilita los repositorios pero **no inunda el sistema** instalando todas las herramientas por defecto. El usuario mantiene el control para instalar solo lo que necesita (o el grupo completo).
 
