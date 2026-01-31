@@ -58,20 +58,25 @@ Para garantizar la estabilidad, cambiamos la estrategia: **"Instalar una base Ar
 Se seleccionó EndeavourOS por su instalador maduro y su cercanía a Arch puro.
 
 6. **Obtención de la Imagen:**
+
+   
    ![Web Oficial](img/06_web_oficial_endeavouros.png)
 
-7. **Configuración de Mirrors:**
+8. **Configuración de Mirrors:**
+   
    ![Mirrors](img/07_seleccion_mirror_descarga.png)
    
    ![Descarga](img/08_descarga_iso_endeavour.png)
 
 9. **Arranque del Nuevo Motor:**
+    
    ![Boot Endeavour](img/09_boot_menu_endeavouros.png)
 
    ![Entorno Live](img/10_entorno_live_endeavour.png)
 
 10. **La Clave del Éxito (Modo Offline):**
    Se seleccionó la instalación **Offline** para desplegar el escritorio XFCE nativo desde la ISO, eliminando riesgos de red durante la instalación base.
+
    ![Installer](img/11_inicio_instalador_calamares.png)
    
    ![Modo Offline](img/12_seleccion_modo_offline_seguro.png)
@@ -99,18 +104,20 @@ sudo ./strap.sh
 
 ### 📸 Resultados de la Integración
 
-14. **Ejecución del Script:** El script actualizó automáticamente las llaves GPG (solucionando el error de la Fase 1).
+14. **Ejecución del Script:** El script actualizó automáticamente las llaves GPG y configuró los espejos de descarga.
 15. **Confirmación:** El sistema confirma: `BlackArch repository is ready!`.
+
+> **Nota Técnica:** El script habilita los repositorios pero **no inunda el sistema** instalando todas las herramientas por defecto. El usuario mantiene el control para instalar solo lo que necesita (o el grupo completo).
 
 ---
 
 ## ✅ Conclusión y Estado Final
 
-El laboratorio está 100% operativo bajo una arquitectura híbrida que maximiza la estabilidad y la funcionalidad.
+El laboratorio está operativo bajo una arquitectura híbrida eficiente: el sistema base es ligero, pero tiene acceso inmediato a todo el arsenal.
 
-* 🟢 **Base:** Arch Linux (EndeavourOS) con Kernel actualizado.
-* 🟢 **Entorno:** XFCE ligero (ideal para virtualización).
-* 🟢 **Arsenal:** Acceso total a las herramientas de BlackArch.
+* 🟢 **Base:** Arch Linux (EndeavourOS) estable.
+* 🟢 **Entorno:** Limpio y sin bloatware (solo herramientas necesarias).
+* 🟢 **Arsenal:** Repositorio BlackArch vinculado (listo para `pacman -S [herramienta]`).
 
 ---
 
