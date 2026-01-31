@@ -72,3 +72,6 @@ El uso de este material y las herramientas mencionadas es estrictamente **educat
 Las pruebas realizadas en este laboratorio se llevaron a cabo sobre **mis propios activos y cuentas** (`gustaafvito.creador.ia`) con el fin de auditar mi propia seguridad.
 
 El autor no se hace responsable del mal uso que terceros puedan dar a la información aquí expuesta. El acceso no autorizado a sistemas informáticos o el ciberacoso son delitos penados por la ley.
+
+### 📚 Autor: Gustavo Luis Sánchez Escobar
+*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
