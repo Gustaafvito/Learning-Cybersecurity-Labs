@@ -58,15 +58,15 @@ Para garantizar la estabilidad, cambiamos la estrategia: **"Instalar una base Ar
 Se seleccionó EndeavourOS por su instalador maduro y su cercanía a Arch puro.
 
 6. **Obtención de la Imagen:**
-   ![Web Oficial](img/06_web_oficial_endeavouros.jpg)
+   ![Web Oficial](img/06_web_oficial_endeavouros.png)
 
 7. **Configuración de Mirrors:**
    ![Mirrors](img/07_seleccion_mirror_descarga.png)
    ![Descarga](img/08_descarga_iso_endeavour.png)
 
 8. **Arranque del Nuevo Motor:**
-   ![Boot Endeavour](img/09_boot_menu_endeavouros.jpg)
-   ![Entorno Live](img/10_entorno_live_endeavour.jpg)
+   ![Boot Endeavour](img/09_boot_menu_endeavouros.png)
+   ![Entorno Live](img/10_entorno_live_endeavour.png)
 
 9. **La Clave del Éxito (Modo Offline):**
    Se seleccionó la instalación **Offline** para desplegar el escritorio XFCE nativo desde la ISO, eliminando riesgos de red durante la instalación base.
@@ -74,7 +74,7 @@ Se seleccionó EndeavourOS por su instalador maduro y su cercanía a Arch puro.
    ![Modo Offline](img/12_seleccion_modo_offline_seguro.png)
 
 10. **Primer Boot Exitoso:**
-    ![Arranque Exitoso](img/13_primer_boot_exitoso_grub.jpg)
+    ![Arranque Exitoso](img/13_primer_boot_exitoso_grub.png)
 
 ---
 
@@ -92,5 +92,24 @@ chmod +x strap.sh
 
 # 3. Ejecutar la transformación (Root)
 sudo ./strap.sh
+```
 
+### 📸 Resultados de la Integración
 
+14. **Ejecución del Script:** El script actualizó automáticamente las llaves GPG (solucionando el error de la Fase 1).
+15. **Confirmación:** El sistema confirma: `BlackArch repository is ready!`.
+
+---
+
+## ✅ Conclusión y Estado Final
+
+El laboratorio está 100% operativo bajo una arquitectura híbrida que maximiza la estabilidad y la funcionalidad.
+
+* 🟢 **Base:** Arch Linux (EndeavourOS) con Kernel actualizado.
+* 🟢 **Entorno:** XFCE ligero (ideal para virtualización).
+* 🟢 **Arsenal:** Acceso total a las herramientas de BlackArch.
+
+---
+
+### 📚 Autor: Gustavo
+*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
