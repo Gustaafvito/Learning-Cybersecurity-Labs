@@ -118,13 +118,13 @@ sudo ./strap.sh
 
 ## ✅ Conclusión y Estado Final
 
-El laboratorio está operativo bajo una arquitectura híbrida eficiente: el sistema base es ligero, pero tiene acceso inmediato a todo el arsenal.
+El laboratorio está 100% operativo bajo una arquitectura híbrida que maximiza la estabilidad y la funcionalidad.
 
-* 🟢 **Base:** Arch Linux (EndeavourOS) estable.
-* 🟢 **Entorno:** Limpio y sin bloatware (solo herramientas necesarias).
-* 🟢 **Arsenal:** Repositorio BlackArch vinculado (listo para `pacman -S [herramienta]`).
+* 🟢 **Base:** Arch Linux (EndeavourOS) con Kernel actualizado.
+* 🟢 **Entorno:** XFCE ligero (ideal para virtualización).
+* 🟢 **Arsenal:** Acceso total a las herramientas de BlackArch.
 
----
+![Sistema Final Operativo](img/16_sistema_final_operativo.png)
 
-### 📚 Autor: Gustavo Luis Sánchez Escobar
-*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
+-----
+**📚 Autor:** Gustavo | *CyberSecurity Researcher* 📅 **2026**
