@@ -161,3 +161,6 @@ Confirmación absoluta del éxito de la operación:
 ---
 **✅ CONCLUSIÓN:**
 La operación ha sido un éxito total. El Samsung Galaxy A71 ha pasado de ser un dispositivo obsoleto y vigilado a ser una herramienta de privacidad potente y actualizada.
+
+### 📚 Autor: Gustavo Luis Sánchez Escobar
+*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
