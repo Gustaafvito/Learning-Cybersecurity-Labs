@@ -201,3 +201,6 @@ Al iniciar por primera vez, es posible que el panel XFCE muestre un error de car
 - **Estado Final:** Escritorio totalmente funcional y estable.
 
 ![Escritorio Kali Final](img/23-kali-desktop-final.png)
+
+### 📚 Autor: Gustavo Luis Sánchez Escobar
+*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
