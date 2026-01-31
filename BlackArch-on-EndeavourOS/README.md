@@ -82,6 +82,8 @@ Se seleccionó EndeavourOS por su instalador maduro y su cercanía a Arch puro.
    ![Modo Offline](img/12_seleccion_modo_offline_seguro.png)
 
 11. **Primer Boot Exitoso:**
+
+    
     ![Arranque Exitoso](img/13_primer_boot_exitoso_grub.png)
 
 ---
