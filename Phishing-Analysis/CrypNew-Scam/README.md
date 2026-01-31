@@ -267,3 +267,6 @@ Tras el análisis forense completo de la campaña "CrypNew", se confirma que est
 * **Dominio:** `crypnew.com` (Creado 2025-12-26).
 * **Recomendación:** Bloqueo inmediato en proxies corporativos y reporte a *Google Safe Browsing* y *Cloudflare Abuse*.
 * **Acción:** No interactuar con ninguna billetera de depósito proporcionada por la plataforma.
+
+### 📚 Autor: Gustavo Luis Sánchez Escobar
+*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
