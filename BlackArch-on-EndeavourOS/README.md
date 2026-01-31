@@ -126,5 +126,5 @@ El laboratorio está operativo bajo una arquitectura híbrida eficiente: el sist
 
 ---
 
-### 📚 Autor: Gustavo
+### 📚 Autor: Gustavo Luis Sánchez Escobar
 *CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
