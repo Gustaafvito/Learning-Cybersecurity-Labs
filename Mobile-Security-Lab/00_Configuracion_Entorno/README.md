@@ -64,3 +64,6 @@ La ejecución es exitosa. Como se observa en la evidencia, el sistema despliega 
 2.  **Ventana Espejo (POCO M5):** Visualización en tiempo real de la pantalla del dispositivo, confirmando el control remoto.
 
 ![Scrcpy Funcionando y Consola](img/04-scrcpy-running.png)
+
+### 📚 Autor: Gustavo Luis Sánchez Escobar
+*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
