@@ -108,3 +108,6 @@ La ejecución de este escenario ha demostrado que la **obsolescencia del softwar
 3.  **Lección Aprendida:** La seguridad en capas de Android actual (Permisos Runtime, Indicadores visuales y Play Protect) es efectiva para mitigar estos ataques genéricos, haciendo indispensable mantener los dispositivos actualizados.
 
 > **Estado:** ✅ Misión Cumplida (Rooted/Compromised).
+
+### 📚 Autor: Gustavo Luis Sánchez Escobar
+*CyberSecurity Researcher | Pentesting · OSINT · Linux* 📅 **2026**
