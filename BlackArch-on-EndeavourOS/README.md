@@ -1,65 +1,96 @@
-#🛡️ Lab Deployment: BlackArch Linux "The Smart Way" (via EndeavourOS)
-<⚠️ Disclaimer: Este repositorio y documentación han sido creados exclusivamente con fines educativos y de investigación en Ciberseguridad. El autor no se hace responsable del mal uso de las herramientas aquí descritas. "Knowledge is power, but power requires responsibility."
+# 🛡️ Lab Deployment: BlackArch Linux — *The Smart Way* (via EndeavourOS)
 
->🎯 Objetivo del Proyecto
-Desplegar un laboratorio de pruebas de penetración (Pentesting) robusto y actualizado, integrando el repositorio oficial de BlackArch Linux (+2800 herramientas) sobre una base de sistema estable.
+> **⚠️ DISCLAIMER / AVISO LEGAL:**
+> Este repositorio y su documentación han sido creados **exclusivamente con fines educativos y de investigación en Ciberseguridad**.  
+> El autor no se hace responsable del uso indebido de las herramientas aquí descritas. El acceso a sistemas informáticos sin autorización es ilegal.
+> *"Knowledge is power, but power requires responsibility."*
 
-Este proyecto documenta el proceso de Troubleshooting y resolución de conflictos al intentar virtualizar la ISO oficial Legacy, y cómo se solucionó mediante una arquitectura modular.
+---
 
-🚩 Fase 1: El Problema (The Legacy ISO Fail)
-Inicialmente, se intentó desplegar la imagen oficial blackarch-linux-slim-2023.05.01. Al tratarse de una versión "Rolling Release" congelada en 2023, surgieron conflictos críticos con las firmas digitales (GPG Keys) durante la instalación en vivo.
+## 🎯 Objetivo del Proyecto
 
-Evidencia del Fallo:
-Selección de la Imagen: Se optó por la versión Slim para agilizar la descarga.
+El propósito de este laboratorio es desplegar un **entorno de Pentesting robusto, estable y actualizado**, integrando el arsenal completo del **repositorio oficial de BlackArch Linux (+2800 herramientas)** sobre una base sólida de **EndeavourOS (Arch Linux)**.
 
-Arranque: El sistema booteó correctamente en modo Live.
+Este proyecto documenta:
+1.  El **fallo crítico** al intentar instalar la ISO oficial *Legacy* de BlackArch.
+2.  El **troubleshooting real** del error de keyring/GPG.
+3.  La **solución definitiva** mediante una arquitectura modular.
 
-Intento de Instalación: Se ejecutó el instalador gráfico nativo (Calamares).
+---
 
-El Conflicto: Durante el desempaquetado y actualización de paquetes...
+## 🚩 Fase 1: El Problema — *The Legacy ISO Fail*
 
-Error Crítico: El gestor de paquetes pacman devolvió un error de Keyring (llaves desactualizadas), impidiendo continuar.
+Inicialmente se intentó desplegar la imagen oficial `blackarch-linux-slim-2023.05.01`. Al tratarse de una distribución *Rolling Release* congelada en el tiempo, surgieron conflictos críticos con las firmas digitales.
 
-Diagnóstico: La ISO oficial contiene llaves GPG caducadas que impiden la conexión segura con los repositorios actuales, haciendo la instalación inviable sin un mantenimiento manual extenso previo.
+### 🧪 Análisis del Fallo
 
-🛠️ Fase 2: La Solución (Arquitectura Modular con EndeavourOS)
-Para garantizar estabilidad, se pivotó la estrategia: "Instalar una base Arch Linux sólida primero, y añadir el arsenal después".
+| Paso | Estado | Observación |
+| :--- | :---: | :--- |
+| Selección de ISO Slim | ✅ | Descarga correcta |
+| Arranque Live (Boot) | ✅ | El sistema inicia bien |
+| Lanzamiento Calamares | ✅ | La interfaz gráfica carga |
+| **Instalación de Paquetes** | ❌ | **FALLO CRÍTICO** |
 
-Se eligió EndeavourOS (Ganymede Neo) por ser la implementación más pura y amigable de Arch Linux.
+### 📸 Evidencia Visual del Error
+1. **Selección de la Imagen:**
+   ![Selección ISO](img/01_seleccion_iso_blackarch_slim.png)
 
-Proceso de Instalación Base:
-Descarga de la Base: Obtención de la ISO actualizada de EndeavourOS.
+2. **Arranque del Sistema:**
+   ![Boot Menu](img/02_boot_menu_blackarch.png)
 
-Configuración de Mirrors: Selección de servidores rápidos.
+3. **Intento de Instalación:**
+   ![Inicio Instalador](img/03_lanzamiento_instalador_legacy.png)
 
-Arranque del Nuevo Motor: Inicio del entorno Live de Endeavour.
+4. **El Bloqueo:**
+   ![Proceso Fallido](img/04_proceso_instalacion_fallido.png)
 
-Configuración del Instalador: Se lanzó Calamares en el nuevo entorno.
+5. **Diagnóstico Final (Keyring Error):**
+   El gestor de paquetes `pacman` confirma que las llaves están corruptas o caducadas.
+   ![Error Fatal](img/05_error_critico_pacman_keyring.png)
 
-La Clave del Éxito (Modo Offline): Se seleccionó la instalación Offline para desplegar el escritorio XFCE nativo desde la ISO, eliminando cualquier riesgo de error de descarga durante la instalación.
+---
 
-Sistema Base Operativo: Instalación completada y primer arranque exitoso con GRUB.
+## 🛠️ Fase 2: La Solución — *Arquitectura Modular*
 
-⚡ Fase 3: La Transformación (BlackArch Strap)
-Con el sistema base estable, se ejecutó el script oficial de BlackArch (strap.sh) para convertir la máquina en un laboratorio de hacking.
+Para garantizar la estabilidad, cambiamos la estrategia: **"Instalar una base Arch Linux moderna (EndeavourOS) y luego inyectar el ADN de BlackArch"**.
 
-Comandos de Integración:
-Evidencia de la Transformación:
-Ejecución del Script: El script actualizó automáticamente las llaves GPG (solucionando el error de la Fase 1).
+### 🧩 Despliegue de la Base (EndeavourOS)
+Se seleccionó EndeavourOS por su instalador maduro y su cercanía a Arch puro.
 
-Repositorio Sincronizado: El sistema confirmó: BlackArch repository is ready!.
+6. **Obtención de la Imagen:**
+   ![Web Oficial](img/06_web_oficial_endeavouros.jpg)
 
-✅ Estado Final del Laboratorio
-El sistema opera ahora bajo un Kernel actualizado, con el entorno ligero XFCE y acceso total al repositorio de BlackArch.
+7. **Configuración de Mirrors:**
+   ![Mirrors](img/07_seleccion_mirror_descarga.png)
+   ![Descarga](img/08_descarga_iso_endeavour.png)
 
-Ventajas de esta arquitectura:
+8. **Arranque del Nuevo Motor:**
+   ![Boot Endeavour](img/09_boot_menu_endeavouros.jpg)
+   ![Entorno Live](img/10_entorno_live_endeavour.jpg)
 
-🟢 Estabilidad: Base mantenida por EndeavourOS.
+9. **La Clave del Éxito (Modo Offline):**
+   Se seleccionó la instalación **Offline** para desplegar el escritorio XFCE nativo desde la ISO, eliminando riesgos de red durante la instalación base.
+   ![Installer](img/11_inicio_instalador_calamares.png)
+   ![Modo Offline](img/12_seleccion_modo_offline_seguro.png)
 
-🟢 Potencia: Arsenal completo de BlackArch disponible.
+10. **Primer Boot Exitoso:**
+    ![Arranque Exitoso](img/13_primer_boot_exitoso_grub.jpg)
 
-🟢 Seguridad: Firmas y llaves actualizadas al día.
+---
 
-Next Steps: Configuración de herramientas post-explotación y hardening del entorno.
+## ⚡ Fase 3: La Transformación — *BlackArch Strap*
 
-Documentación realizada por Gustavo - CyberSecurity Researcher - 2026
+Con el sistema base estable, procedemos a ejecutar el script oficial de integración `strap.sh`.
+
+### 💻 Comandos de Integración
+```bash
+# 1. Descargar el script de integración
+curl -O [https://blackarch.org/strap.sh](https://blackarch.org/strap.sh)
+
+# 2. Dar permisos de ejecución
+chmod +x strap.sh
+
+# 3. Ejecutar la transformación (Root)
+sudo ./strap.sh
+
+
