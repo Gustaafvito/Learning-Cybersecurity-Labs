@@ -31,6 +31,7 @@ Este espacio documenta mi evolución técnica, almacenando guías, scripts y an�
 | Sistema | Descripción |
 | :--- | :--- |
 | **[BlackArch Setup](./Lab-Setup/BlackArch-on-EndeavourOS)** | Guía de despliegue de BlackArch sobre EndeavourOS para pentesting. |
+| **[BlackArch OVA Install](./Lab-Setup/BlackArch-OVA-Installation)** | **Guía de instalación rápida usando la imagen OVA oficial y troubleshooting.** |
 
 ---
 
