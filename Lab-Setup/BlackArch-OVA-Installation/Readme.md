@@ -28,14 +28,19 @@ Se descargó la imagen OVA desde el repositorio oficial. Es crítico verificar e
 * **SHA1:** `6c2ac1739b4f971bd7eef12d752ccf868a8065bd`
 
 ![Paso 1 - Descarga](img/1_Descarga_OVA.png)
+
 ![Paso 2 - Detalles](img/2_Descarga_OVA.png)
+
 ![Paso 3 - Descarga en Progreso](img/3_Descargando.png)
+
 
 ### 2. Importación en VMware
 Apertura del archivo `.ova` y configuración inicial de la máquina virtual.
 
 ![Abrir OVA](img/4_Abrir_OVA.png)
+
 ![Licencia](img/5_Aceptar.png)
+
 ![Configuración Nombre](img/6_Nombre.png)
 
 ### 3. Solución de Error de Importación (Troubleshooting)
