@@ -72,15 +72,16 @@ uname -a
 ```
 # Salida: Linux blackarch 6.2.6-arch1-1 #1 SMP PREEMPT_DYNAMIC ... x86_64 GNU/Linux
 
-🛠️ Herramientas Incluidas
-BlackArch destaca por su inmenso repositorio (+2800 herramientas). Aquí un ejemplo verificando la ejecución de SQLMap (Imagen 11):
+## 🛠️ Herramientas Incluidas
+BlackArch destaca por su inmenso repositorio (+2800 herramientas). Aquí un ejemplo verificando la ejecución de **SQLMap**:
 
-🔄 Post-Instalación (Recomendado)
-Al ser una distribución Rolling Release, se recomienda actualizar los llaveros criptográficos y el sistema antes de su uso intensivo:
+![SQLMap Demo](img/11_Herramientas.png)
 
-Bash
-# 1. Inicializar llaveros
-```
+## 🔄 Post-Instalación (Recomendado)
+Al ser una distribución *Rolling Release*, se recomienda actualizar los llaveros criptográficos y el sistema antes de su uso intensivo.
+
+### 1. Inicializar llaveros
+```bash
 sudo pacman-key --init
 sudo pacman-key --populate blackarch
 ```
