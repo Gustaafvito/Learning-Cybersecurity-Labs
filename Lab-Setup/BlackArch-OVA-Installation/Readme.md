@@ -73,7 +73,6 @@ Validación de la versión del kernel y arquitectura del sistema.
 uname -a
 ```
 ![Salida_Linux](img/10_Info_sistema.png)
-# Salida: Linux blackarch 6.2.6-arch1-1 #1 SMP PREEMPT_DYNAMIC ... x86_64 GNU/Linux
 
 ## 🛠️ Herramientas Incluidas
 BlackArch destaca por su inmenso repositorio (+2800 herramientas). Aquí un ejemplo verificando la ejecución de **SQLMap**:
