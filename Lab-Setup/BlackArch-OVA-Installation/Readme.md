@@ -96,5 +96,9 @@ sudo pacman -Syu
 ⚠️ Aviso Legal
 Este laboratorio ha sido creado con fines educativos y de investigación. El autor no se hace responsable del mal uso de las herramientas aquí mostradas. Asegúrese de operar siempre en entornos controlados y bajo autorización.
 
-Autor: Gustavo luis Sánchez Escobar
+---
+<div align="center">
+  <sub>By <a href="https://github.com/Gustaafvito">Gustaafvito</a></sub>
+</div>
+
 
