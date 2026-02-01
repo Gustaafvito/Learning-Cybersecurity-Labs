@@ -69,4 +69,30 @@ Estas son las credenciales predeterminadas de la imagen OVA:
 Validación de la versión del kernel y arquitectura del sistema.
 ```bash
 uname -a
+```
 # Salida: Linux blackarch 6.2.6-arch1-1 #1 SMP PREEMPT_DYNAMIC ... x86_64 GNU/Linux
+
+🛠️ Herramientas Incluidas
+BlackArch destaca por su inmenso repositorio (+2800 herramientas). Aquí un ejemplo verificando la ejecución de SQLMap (Imagen 11):
+
+🔄 Post-Instalación (Recomendado)
+Al ser una distribución Rolling Release, se recomienda actualizar los llaveros criptográficos y el sistema antes de su uso intensivo:
+
+Bash
+# 1. Inicializar llaveros
+```
+sudo pacman-key --init
+sudo pacman-key --populate blackarch
+```
+# 2. Actualizar sistema completo
+```
+sudo pacman -Syu
+```
+
+⚠️ Aviso Legal
+Este laboratorio ha sido creado con fines educativos y de investigación. El autor no se hace responsable del mal uso de las herramientas aquí mostradas. Asegúrese de operar siempre en entornos controlados y bajo autorización.
+
+Autor: Gustavo
+
+Repositorio: Learning-Cybersecurity-Labs
+
