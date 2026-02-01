@@ -54,8 +54,10 @@ Durante la importación, es común encontrar un error de conformidad OVF en VMwa
 ## 🚀 Primer Inicio y Configuración
 
 ### Entorno de Escritorio
-Tras la importación exitosa, el sistema arranca directamente en el gestor de ventanas predeterminado.
-![Escritorio](img/8_escritorio.png)
+Tras la importación exitosa, el sistema arranca. Aquí se muestra la pantalla de acceso y el escritorio una vez iniciada la sesión (Imágenes 8 y 9):
+
+![Pantalla de Login](img/8_escritorio.png)
+![Escritorio Logueado](img/9_escritorio_dentro.png)
 
 ### 🔐 Credenciales por Defecto
 Estas son las credenciales predeterminadas de la imagen OVA:
@@ -70,6 +72,7 @@ Validación de la versión del kernel y arquitectura del sistema.
 ```bash
 uname -a
 ```
+![Salida_Linux](img/10_Info_sistema.png)
 # Salida: Linux blackarch 6.2.6-arch1-1 #1 SMP PREEMPT_DYNAMIC ... x86_64 GNU/Linux
 
 ## 🛠️ Herramientas Incluidas
@@ -85,15 +88,14 @@ Al ser una distribución *Rolling Release*, se recomienda actualizar los llavero
 sudo pacman-key --init
 sudo pacman-key --populate blackarch
 ```
-# 2. Actualizar sistema completo
-```
+### 2. Actualizar sistema completo
+```bash
 sudo pacman -Syu
 ```
+
 
 ⚠️ Aviso Legal
 Este laboratorio ha sido creado con fines educativos y de investigación. El autor no se hace responsable del mal uso de las herramientas aquí mostradas. Asegúrese de operar siempre en entornos controlados y bajo autorización.
 
-Autor: Gustavo
-
-Repositorio: Learning-Cybersecurity-Labs
+Autor: Gustavo luis Sánchez Escobar
 
