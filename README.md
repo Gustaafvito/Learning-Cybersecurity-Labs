@@ -11,6 +11,11 @@ Este espacio documenta mi evolución técnica, almacenando guías, scripts y an�
 
 ## 📂 Índice de Laboratorios
 
+### ⚔️ Network Hacking & Active Recon
+| Proyecto | Descripción |
+| :--- | :--- |
+| **[RustScan Optimization](./Laboratorio-RustScan)** | 🚀 Comparativa de velocidad (4s vs 108s) y eficiencia escaneando Metasploitable 3. |
+
 ### 📱 Mobile Hacking & Android
 | Proyecto | Descripción |
 | :--- | :--- |
