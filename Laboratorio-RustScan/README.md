@@ -20,7 +20,7 @@ Antes de iniciar el ataque, verificamos la conectividad y la dirección IP de la
 * **IP del Objetivo:** `192.168.0.40`
 * **Estado:** Conectividad confirmada.
 
-![Configuración del Objetivo](1-target.png)
+![Configuración del Objetivo](img/1-target.png)
 
 ---
 
@@ -35,13 +35,13 @@ sudo nmap -p- 192.168.0.40
 ### Análisis del Proceso:
 Como se observa en el clip inferior, Nmap tarda considerablemente en recorrer los puertos cerrados antes de encontrar los abiertos.
 
-![Clip Nmap](demo-nmap.gif)
+![Clip Nmap](img/demo-nmap.gif)
 
 ### Resultado:
 * **Tiempo Total:** **108.65 segundos** (1 min 48 seg).
 * **Conclusión:** Aunque efectivo, es demasiado lento para fases iniciales de reconocimiento en redes grandes.
 
-![Resultado Lento Nmap](2-nmap.png)
+![Resultado Lento Nmap](img/2-nmap.png)
 
 ---
 
@@ -58,19 +58,19 @@ rustscan -a 192.168.0.40 --ulimit 5000 -- -sV
 ### Análisis del Proceso:
 RustScan identifica los puertos casi instantáneamente (ver clip) y comienza el análisis de servicios inmediatamente.
 
-![Clip RustScan](demo-rustscan.gif)
+![Clip RustScan](img/demo-rustscan.gif)
 
 ### Detección Inicial:
 En menos de un segundo, RustScan ya ha identificado los puertos abiertos:
 
-![Detección RustScan](3-rustscan.png)
+![Detección RustScan](img/3-rustscan.png)
 
 ### Resultado Final (Integración):
 Al finalizar el "piping" con Nmap, obtenemos el mismo resultado detallado pero en una fracción del tiempo.
 
 * **Tiempo Total:** **4.17 segundos**.
 
-![Resultado Final](4-result.png)
+![Resultado Final](img/4-result.png)
 
 ---
 
@@ -86,7 +86,7 @@ La diferencia de rendimiento es abismal. RustScan logra reducir el tiempo de esp
 ### 🎥 La Prueba Definitiva (Split Screen)
 A la izquierda el método tradicional, a la derecha la optimización con RustScan:
 
-![Versus Nmap RustScan](demo-versus.gif)
+![Versus Nmap RustScan](img/demo-versus.gif)
 
 ---
 *Laboratorio realizado por [Gustaafvito](https://github.com/Gustaafvito)*
