@@ -89,4 +89,15 @@ A la izquierda el método tradicional, a la derecha la optimización con RustSca
 ![Versus Nmap RustScan](img/demo-versus.gif)
 
 ---
+
+## ⚠️ Aviso Legal (Disclaimer)
+Este material ha sido creado con **fines estrictamente educativos** y para el aprendizaje de pruebas de penetración éticas.
+
+* Las pruebas se han realizado en un **entorno de laboratorio controlado y aislado** (VMware/VirtualBox) propiedad del autor.
+* No se ha atacado ningún objetivo real ni infraestructura de terceros sin autorización.
+* El autor no se hace responsable del mal uso que se le pueda dar a la información o herramientas aquí expuestas.
+
+**Por favor, actúa de manera responsable y ética.**
+
+---
 *Laboratorio realizado por [Gustaafvito](https://github.com/Gustaafvito)*
