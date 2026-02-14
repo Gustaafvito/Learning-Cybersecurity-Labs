@@ -38,7 +38,7 @@ Descargamos el código fuente de AutoBspwmKali en nuestro directorio de trabajo.
 ```bash
 git clone https://github.com/Justice-Reaper/AutoBspwmKali
 ```
-![Clonación repositorio](img/2_Clonación.png)
+![Clonación repositorio](img/2-Clonación.png)
 
 Paso 2.3: Ejecución del Instalador
 Accedemos al directorio descargado, otorgamos permisos de ejecución al script principal (AutoBSPWM.sh) y lo ejecutamos con privilegios de superusuario.
@@ -57,4 +57,13 @@ Una vez iniciado el script, veremos el banner de bienvenida. El sistema nos soli
 
 ![Inicio del Script y Selección de Usuario](img/3-Inicio_script.png)
 *Introducimos nuestro nombre de usuario para que el script configure los permisos y directorios en `/home/usuario`.*
+
+---
+
+### Paso 2.5: Optimización de Entorno
+El script nos preguntará si estamos ejecutando Kali Linux en una máquina virtual. Es **crítico** responder correctamente para que se apliquen las configuraciones gráficas adecuadas (Picom) y evitar lag en la interfaz.
+
+![Selección de Virtual Machine](img/4_seleccion_vm.png)
+*Seleccionamos "YES" para desactivar efectos pesados de blur y transparencias que no rinden bien en virtualización.*
+
 
