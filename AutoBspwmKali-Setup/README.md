@@ -123,22 +123,6 @@ Para cerrar el ciclo, comparamos las especificaciones finales del sistema. Ahora
 
 ---
 
-## 🌟 Integración Destacada: KaliOptimus
-
-Una de las grandes novedades en la actualización de este entorno es la inclusión nativa de **KaliOptimus**, una herramienta desarrollada por mí para la optimización y mantenimiento del sistema.
-
-Como se puede observar en la ayuda del sistema, el comando `kaliOptimus` ahora forma parte del arsenal de utilidades integradas en el flujo de trabajo de ZSH.
-
-### ¿Qué hace KaliOptimus en este entorno?
-* **Mantenimiento Automatizado:** Repara repositorios corruptos y actualiza las llaves GPG de forma automática.
-* **Optimización de Paquetes:** Realiza limpiezas profundas de dependencias obsoletas para mantener el sistema ligero.
-* **Actualización Inteligente:** Ejecuta un `full-upgrade` gestionando posibles conflictos de paquetes típicos de Kali Linux.
-
-Es un orgullo ver cómo herramientas de nuestra propia cosecha se integran en proyectos tan potentes como AutoBspwmKali para ayudar a toda la comunidad.
-
----
----
-
 ## ⌨️ Comandos Personalizados y Mantenimiento
 
 El entorno incorpora una serie de funciones en ZSH diseñadas para optimizar el flujo de trabajo y el mantenimiento del sistema.
@@ -152,7 +136,9 @@ Esta utilidad automatiza procesos críticos de salud del sistema:
 * **Actualización Inteligente:** Ejecuta un `Full Upgrade` del sistema asegurando la integridad de los paquetes.
 
 ![Ejecución de KaliOptimus](img/9_kalioptimus_exec.png)
+
 *KaliOptimizer & Repair v2.0 en plena ejecución durante el mantenimiento del sistema.*
+Es un orgullo ver cómo herramientas de nuestra propia cosecha se integran en proyectos tan potentes como AutoBspwmKali para ayudar a toda la comunidad.
 
 ### 🛠️ Utilidades de Gestión y Pentesting
 Además, el sistema cuenta con los siguientes alias personalizados:
