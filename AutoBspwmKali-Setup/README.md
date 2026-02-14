@@ -38,6 +38,7 @@ Descargamos el código fuente de AutoBspwmKali en nuestro directorio de trabajo.
 ```bash
 git clone https://github.com/Justice-Reaper/AutoBspwmKali
 ```
+![Clonación repositorio](img/2_Clonación.png)
 
 Paso 2.3: Ejecución del Instalador
 Accedemos al directorio descargado, otorgamos permisos de ejecución al script principal (AutoBSPWM.sh) y lo ejecutamos con privilegios de superusuario.
