@@ -49,3 +49,11 @@ sudo ./AutoBSPWM.sh
 ```
 
 ⚠️ Nota de ejecución: Durante el proceso, el script detectará el entorno y nos pedirá confirmación sobre si estamos instalando en una Máquina Virtual o en Hardware Físico. Selecciona la opción adecuada para tu caso.
+
+---
+### Paso 2.4: Definición de Usuario
+Una vez iniciado el script, veremos el banner de bienvenida. El sistema nos solicitará el nombre del usuario al que se aplicarán los cambios (en nuestro caso, el usuario actual).
+
+![Inicio del Script y Selección de Usuario](img/3-Inicio_script.png)
+*Introducimos nuestro nombre de usuario para que el script configure los permisos y directorios en `/home/usuario`.*
+
