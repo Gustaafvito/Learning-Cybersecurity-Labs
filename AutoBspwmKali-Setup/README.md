@@ -14,7 +14,7 @@ Partimos de una instalación estándar de Kali Linux. Como se observa, el entorn
 
 **Especificaciones del sistema actual:**
 
-![Estado Inicial - Kali Linux XFCE](img/1-Kali_antes.jpg)
+![Estado Inicial - Kali Linux XFCE](img/1-Kali_antes.png)
 *Captura de pantalla mostrando el entorno XFCE por defecto y las especificaciones del sistema (Fastfetch).*
 
 ---
@@ -38,7 +38,7 @@ Descargamos el código fuente de AutoBspwmKali en nuestro directorio de trabajo.
 ```bash
 git clone https://github.com/Justice-Reaper/AutoBspwmKali
 ```
-![Clonación repositorio](img/2-Clonación.png)
+![Clonación repositorio](img/2_Clonación.png)
 
 Paso 2.3: Ejecución del Instalador
 Accedemos al directorio descargado, otorgamos permisos de ejecución al script principal (AutoBSPWM.sh) y lo ejecutamos con privilegios de superusuario.
@@ -57,7 +57,7 @@ Una vez iniciado el script, veremos el banner de bienvenida. El sistema nos soli
 
 Introducimos nuestro nombre de usuario para que el script configure los permisos y directorios en /home/usuario.
 
-![Inicio del Script y Selección de Usuario](img/3-Inicio_script.png)
+![Inicio del Script y Selección de Usuario](img/3_Inicio_script.png)
 *Introducimos nuestro nombre de usuario para que el script configure los permisos y directorios en `/home/usuario`.*
 
 ---
