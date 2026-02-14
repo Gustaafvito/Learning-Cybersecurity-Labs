@@ -99,8 +99,8 @@ Tras completar la instalación de todas las herramientas y realizar la limpieza 
 ### Paso 4.1: Instalación Exitosa
 El mensaje final del instalador nos indica que el proceso ha terminado y recomienda un reinicio para que todos los cambios de configuración se carguen correctamente.
 
-![Instalación Completa](img/5_Instalacion%20_completa.png)
-*Confirmación del despliegue exitoso del entorno BSPWM.*
+![Instalación Completa](img/5_Instalacion%20_completa.png) 
+ *Confirmación del despliegue exitoso del entorno BSPWM.*
 
 ### Paso 4.2: Selección de Sesión
 Al reiniciar el sistema, accedemos al menú de sesiones del gestor de inicio (LightDM) para seleccionar manualmente la entrada de **bspwm** antes de introducir las credenciales.
