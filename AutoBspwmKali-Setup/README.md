@@ -63,7 +63,7 @@ Una vez iniciado el script, veremos el banner de bienvenida. El sistema nos soli
 ### Paso 2.5: Optimización de Entorno
 El script nos preguntará si estamos ejecutando Kali Linux en una máquina virtual. Es **crítico** responder correctamente para que se apliquen las configuraciones gráficas adecuadas (Picom) y evitar lag en la interfaz.
 
-![Selección de Virtual Machine](img/4_seleccion_vm.png)
+![Selección de Virtual Machine](img/4_Seleccion_vm.png)
 *Seleccionamos "YES" para desactivar efectos pesados de blur y transparencias que no rinden bien en virtualización.*
 
 
