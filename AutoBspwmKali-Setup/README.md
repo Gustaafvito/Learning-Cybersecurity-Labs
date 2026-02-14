@@ -92,17 +92,30 @@ Durante la ejecución, el instalador nos permite personalizar el arsenal de herr
 
 ---
 
-4. Finalización y Resultado
-Tras completar la instalación de herramientas y limpiar archivos temporales, el script confirma que el entorno BSPWM ha sido instalado exitosamente.
+## 4. Finalización y Resultado
 
-El sistema recomienda reiniciar para cargar correctamente la nueva configuración.
+Tras completar la instalación de todas las herramientas y realizar la limpieza de paquetes temporales, el script confirma que el entorno BSPWM ha sido desplegado exitosamente.
 
-Paso 4.1: Selección de Sesión
-Al reiniciar, es necesario seleccionar manualmente la sesión de bspwm en el gestor de inicio (LightDM).
+### Paso 4.1: Instalación Exitosa
+El mensaje final del instalador nos indica que el proceso ha terminado y recomienda un reinicio para que todos los cambios de configuración se carguen correctamente.
 
-Activación del nuevo gestor de ventanas tiling.
+![Instalación Completa](img/5_Instalacion%20_completa.png)
+*Confirmación del despliegue exitoso del entorno BSPWM.*
 
-Paso 4.2: Entorno Operativo
-El escritorio final presenta una estética limpia, funcional y con una Polybar informativa que facilita el control durante las pruebas de penetración.
+### Paso 4.2: Selección de Sesión
+Al reiniciar el sistema, accedemos al menú de sesiones del gestor de inicio (LightDM) para seleccionar manualmente la entrada de **bspwm** antes de introducir las credenciales.
 
-Vista final del escritorio BSPWM configurado y listo para su uso.
+![Selección BSPWM](img/6_Eleccion_bspwn.png)
+*Activación del nuevo gestor de ventanas tiling desde la pantalla de login.*
+
+### Paso 4.3: Entorno Operativo Final
+El resultado es un escritorio estético y funcional, con una barra superior (Polybar) que centraliza la información del sistema y un fondo de pantalla personalizado que completa la identidad del laboratorio.
+
+![Resultado Final](img/7_Resultado_final.png)
+*Vista general del entorno operativo tras la personalización completa.*
+
+### Paso 4.4: El "Después" (The "After")
+Para cerrar el ciclo, comparamos las especificaciones finales del sistema. Ahora bajo el entorno **BSPWM**, observamos un sistema optimizado y listo para la acción.
+
+![Estado Final - Kali Linux BSPWM](img/8-Kali_despues.jpg)
+*Especificaciones finales del sistema mostrando el cambio de entorno a bspwm.*
