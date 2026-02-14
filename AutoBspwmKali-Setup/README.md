@@ -120,3 +120,20 @@ Para cerrar el ciclo, comparamos las especificaciones finales del sistema. Ahora
 
 ![Estado Final - Kali Linux BSPWM](img/8-Kali_despues.png)
 *Especificaciones finales del sistema mostrando el cambio de entorno a bspwm.*
+
+---
+
+## ⌨️ Comandos Personalizados y Mantenimiento
+
+El entorno viene vitaminado con una serie de alias y funciones en ZSH que agilizan las tareas comunes de auditoría:
+
+### 🛠️ Gestión del Entorno
+* `setWallpaper`: Permite cambiar el fondo de escritorio rápidamente.
+* `showHelpPanel`: Despliega un panel con todos los atajos de teclado y comandos del sistema.
+* `kaliOptimus`: **Comando crítico** que automatiza la reparación de repositorios, corrección de llaves GPG, actualización completa del sistema y limpieza profunda.
+
+### 🎯 Utilidades de Pentesting
+* `setTarget` / `clearTarget`: Configura o elimina el objetivo (IP/Host) visible en la Polybar para tenerlo siempre presente durante el compromiso.
+* `extractPorts`: Analiza ficheros de Nmap (formato `-oG`) y copia automáticamente los puertos abiertos al portapapeles.
+* `mkt`: Crea una estructura de directorios de trabajo organizada para nuevos proyectos de auditoría.
+* `xcopy`: Copia el contenido de cualquier archivo directamente al portapapeles del sistema.
