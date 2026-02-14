@@ -14,7 +14,7 @@ Partimos de una instalación estándar de Kali Linux. Como se observa, el entorn
 
 **Especificaciones del sistema actual:**
 
-![Estado Inicial - Kali Linux XFCE](img/kali_antes.png)
+![Estado Inicial - Kali Linux XFCE](img/Kali_antes.png)
 *Captura de pantalla mostrando el entorno XFCE por defecto y las especificaciones del sistema (Fastfetch).*
 
 ---
