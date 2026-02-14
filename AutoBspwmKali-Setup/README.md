@@ -100,6 +100,7 @@ Tras completar la instalación de todas las herramientas y realizar la limpieza 
 El mensaje final del instalador nos indica que el proceso ha terminado y recomienda un reinicio para que todos los cambios de configuración se carguen correctamente.
 
 ![Instalación Completa](img/5_Instalacion%20_completa.png) 
+
  *Confirmación del despliegue exitoso del entorno BSPWM.*
 
 ### Paso 4.2: Selección de Sesión
