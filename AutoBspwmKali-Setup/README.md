@@ -138,6 +138,7 @@ Esta utilidad automatiza procesos críticos de salud del sistema:
 ![Ejecución de KaliOptimus](img/9_kalioptimus_exec.png)
 
 *KaliOptimizer & Repair v2.0 en plena ejecución durante el mantenimiento del sistema.*
+
 Es un orgullo ver cómo herramientas de nuestra propia cosecha se integran en proyectos tan potentes como AutoBspwmKali para ayudar a toda la comunidad.
 
 ### 🛠️ Utilidades de Gestión y Pentesting
