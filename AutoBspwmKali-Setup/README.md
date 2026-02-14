@@ -137,17 +137,29 @@ Como se puede observar en la ayuda del sistema, el comando `kaliOptimus` ahora f
 Es un orgullo ver cómo herramientas de nuestra propia cosecha se integran en proyectos tan potentes como AutoBspwmKali para ayudar a toda la comunidad.
 
 ---
+---
+
 ## ⌨️ Comandos Personalizados y Mantenimiento
 
-El entorno viene vitaminado con una serie de alias y funciones en ZSH que agilizan las tareas comunes de auditoría:
+El entorno incorpora una serie de funciones en ZSH diseñadas para optimizar el flujo de trabajo y el mantenimiento del sistema.
 
-### 🛠️ Gestión del Entorno
-* `setWallpaper`: Permite cambiar el fondo de escritorio rápidamente.
-* `showHelpPanel`: Despliega un panel con todos los atajos de teclado y comandos del sistema.
-* `kaliOptimus`: **Comando crítico** que automatiza la reparación de repositorios, corrección de llaves GPG, actualización completa del sistema y limpieza profunda.
+### 🌟 Integración Destacada: KaliOptimus (v2.0)
+Como parte fundamental de la actualización del sistema, se ha integrado de forma nativa mi herramienta **KaliOptimizer & Repair**, accesible mediante el comando `kaliOptimus`.
 
-### 🎯 Utilidades de Pentesting
-* `setTarget` / `clearTarget`: Configura o elimina el objetivo (IP/Host) visible en la Polybar para tenerlo siempre presente durante el compromiso.
-* `extractPorts`: Analiza ficheros de Nmap (formato `-oG`) y copia automáticamente los puertos abiertos al portapapeles.
-* `mkt`: Crea una estructura de directorios de trabajo organizada para nuevos proyectos de auditoría.
-* `xcopy`: Copia el contenido de cualquier archivo directamente al portapapeles del sistema.
+Esta utilidad automatiza procesos críticos de salud del sistema:
+* **Restauración de Repositorios:** Sobrescribe el `sources.list` con las fuentes oficiales de Kali Linux.
+* **Gestión de Llaves GPG:** Purga llaves corruptas y descarga las firmas más recientes automáticamente.
+* **Actualización Inteligente:** Ejecuta un `Full Upgrade` del sistema asegurando la integridad de los paquetes.
+
+![Ejecución de KaliOptimus](img/9_kalioptimus_exec.png)
+*KaliOptimizer & Repair v2.0 en plena ejecución durante el mantenimiento del sistema.*
+
+### 🛠️ Utilidades de Gestión y Pentesting
+Además, el sistema cuenta con los siguientes alias personalizados:
+
+* **Gestión de Objetivos:** `setTarget` y `clearTarget` para visualizar la IP de la víctima en la Polybar.
+* **Análisis de Red:** `extractPorts` para copiar rápidamente puertos abiertos desde ficheros de Nmap al portapapeles.
+* **Productividad:**
+    * `mkt`: Crea una estructura de directorios de trabajo organizada.
+    * `xcopy`: Copia el contenido de archivos directamente al portapapeles.
+    * `showHelpPanel`: Despliega visualmente todos los atajos y comandos disponibles.
