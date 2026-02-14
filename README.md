@@ -32,6 +32,11 @@ Este espacio documenta mi evolución técnica, almacenando guías, scripts y an�
 | :--- | :--- | :--- |
 | **[CrypNew Scam](./Malware-Analysis/Phishing-Analysis)** | 🎣 Phishing | Análisis técnico de una campaña de estafa real (Phishing). |
 
+### 🖥️ Pentesting Environments & Workstations
+| Proyecto | Descripción |
+| :--- | :--- |
+| **[AutoBspwmKali Setup](./AutoBspwmKali-Setup)** | 🐉 Despliegue de entorno BSPWM profesional con integración nativa de **KaliOptimus v2.0**. |
+
 ### 🐧 Infraestructura & Setup
 | Sistema | Descripción |
 | :--- | :--- |
