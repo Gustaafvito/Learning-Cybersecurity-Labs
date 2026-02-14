@@ -117,5 +117,5 @@ El resultado es un escritorio estético y funcional, con una barra superior (Pol
 ### Paso 4.4: El "Después" (The "After")
 Para cerrar el ciclo, comparamos las especificaciones finales del sistema. Ahora bajo el entorno **BSPWM**, observamos un sistema optimizado y listo para la acción.
 
-![Estado Final - Kali Linux BSPWM](img/8-Kali_despues.jpg)
+![Estado Final - Kali Linux BSPWM](img/8-Kali_despues.png)
 *Especificaciones finales del sistema mostrando el cambio de entorno a bspwm.*
