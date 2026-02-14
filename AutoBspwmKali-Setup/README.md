@@ -36,7 +36,7 @@ Paso 2.2: Clonación del Repositorio
 Descargamos el código fuente de AutoBspwmKali en nuestro directorio de trabajo.
 
 ```bash
-git clone [https://github.com/Justice-Reaper/AutoBspwmKali](https://github.com/Justice-Reaper/AutoBspwmKali)
+git clone [https://github.com/Justice-Reaper/AutoBspwmKali.git](https://github.com/Justice-Reaper/AutoBspwmKali.git)
 ```
 
 Paso 2.3: Ejecución del Instalador
