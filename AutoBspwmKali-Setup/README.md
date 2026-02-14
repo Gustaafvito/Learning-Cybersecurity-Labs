@@ -63,37 +63,34 @@ Introducimos nuestro nombre de usuario para que el script configure los permisos
 ---
 Paso 2.5: Configuración de Shell y Optimización VM
 Durante esta fase, el script instala Powerlevel10k para la terminal y nos preguntará si estamos ejecutando Kali Linux en una máquina virtual. Es crítico responder correctamente para que se apliquen las configuraciones gráficas adecuadas (Picom) y evitar lag en la interfaz.
-
-Seleccionamos "YES" para desactivar efectos pesados de blur y transparencias que no rinden bien en virtualización.
-
 ![Selección de Virtual Machine](img/4_Seleccion_vm.png)
 
 *Seleccionamos "YES" para desactivar efectos pesados de blur y transparencias que no rinden bien en virtualización.*
 
 ---
 
-3. Inventario de Software Instalado
-El instalador permite añadir herramientas adicionales esenciales para el flujo de trabajo de seguridad:
+## 3. Inventario de Software Instalado
 
-✅ Herramientas Añadidas:
-Obsidian: Gestión de notas y documentación de auditorías.
+Durante la ejecución, el instalador nos permite personalizar el arsenal de herramientas adicionales. Basándonos en las necesidades de un laboratorio de pentesting moderno, estas fueron las decisiones tomadas:
 
-Visual Studio Code: Editor de código integrado con repositorios oficiales de Microsoft.
+### ✅ Herramientas Añadidas:
+* **Gestión de Notas:** **Obsidian**, instalada para centralizar la documentación de auditorías y *writeups* en formato Markdown.
+* **Desarrollo y Edición:** * **Visual Studio Code:** Integrado mediante sus repositorios oficiales para asegurar actualizaciones automáticas.
+    * **PyCharm Community:** Entorno dedicado para el desarrollo y depuración de scripts avanzados en Python.
+    * **NVIM (Neovim):** Configurado con el framework **NvChad** para disponer de un editor de terminal rápido y estético.
+* **Auditoría Web y APIs:** * **Caido:** Instalado y configurado como el **proxy predeterminado** del sistema debido a su ligereza frente a Burp Suite.
+    * **Postman:** Herramienta esencial para la interceptación y pruebas de peticiones en APIs.
+* **Arsenal de Pentesting (Herramientas Pro):** Se incluyó la descarga e instalación automatizada de paquetes críticos:
+    * **SecLists:** Diccionarios masivos para ataques de fuerza bruta.
+    * **Bloodhound & Neo4j:** Herramientas para el análisis de rutas de ataque en Active Directory.
+    * **PayloadsAllTheThings:** Repositorio de consulta para vectores de ataque y exploits.
+    * **Pwntools:** Framework de Python para el desarrollo de exploits y resolución de CTFs.
 
-Postman: Herramienta para pruebas y auditoría de APIs.
+### ❌ Herramientas Omitidas:
+* **Burp Suite Professional:** Se rechazó su instalación para evitar el uso de cargadores externos o problemas de licencias, manteniendo la versión *Community* preinstalada en Kali.
+* **Navegadores:** Se mantuvo **Firefox** como navegador principal del sistema. Se declinó establecer Google Chrome o Tor como navegadores predeterminados para optimizar el consumo de recursos de la Máquina Virtual.
 
-NVIM (Neovim): Configurado con NVChad para edición rápida en terminal.
-
-Caido: Instalado y configurado como proxy predeterminado para análisis web.
-
-PyCharm Community: Entorno para desarrollo avanzado en Python.
-
-Herramientas de Pentesting: Instalación de Bloodhound, Neo4j, PayloadsAllTheThings, Pwntools y SecLists.
-
-❌ Herramientas Omitidas:
-Burp Suite Professional: Se descartó para mantener la versión Community estándar y evitar conflictos externos.
-
-Navegador Predeterminado: Se mantuvo Firefox como principal, rechazando poner Google Chrome o Tor como predeterminados por rendimiento.
+---
 
 4. Finalización y Resultado
 Tras completar la instalación de herramientas y limpiar archivos temporales, el script confirma que el entorno BSPWM ha sido instalado exitosamente.
